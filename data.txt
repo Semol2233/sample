@@ -1,4 +1,4 @@
-1. heroku create
+{% comment %} 1. heroku create
 
 .DS_Store
 node_modules/
@@ -15,3 +15,13 @@ selenium-debug.log
 *.ntvs*
 *.njsproj
 *.sln
+
+
+var express = require('express');
+var path = require('path');
+var serveStatic = require('serve-static');
+app = express();
+app.use(serveStatic(__dirname + "/dist"));
+var port = process.env.PORT || 5000;
+app.listen(port);
+console.log('server started '+ port); {% endcomment %}
