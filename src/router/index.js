@@ -38,7 +38,12 @@ const routes = [
     path: "/template4",
     name: "Template4",
     component: () => import("../views/Template4.vue")
-  }
+  },
+  {
+    path: "/template5",
+    name: "Template5",
+    component: () => import("../views/Template5.vue")
+  } 
 ];
 
 const router = new VueRouter({

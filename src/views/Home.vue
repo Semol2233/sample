@@ -33,6 +33,13 @@
           </div>
         </router-link>
       </v-col>
+       <v-col cols="12" md="4">
+        <router-link to="/template5">
+          <div class="template">
+            <img src="/img/template3.png" alt="" />
+          </div>
+        </router-link>
+      </v-col>
     </v-row>
   </div>
 </template>
