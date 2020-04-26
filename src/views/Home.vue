@@ -9,7 +9,7 @@
           </div>
         </router-link>
       </v-col>
-
+<googledrive />
       <v-col cols="12" md="4">
         <router-link to="/template2">
           <div class="template">
@@ -40,6 +40,15 @@
           </div>
         </router-link>
       </v-col>
+
+
+             <v-col cols="12" md="4">
+        <router-link to="/template6">
+          <div class="template">
+            <img src="/img/template3.png" alt="" />
+          </div>
+        </router-link>
+      </v-col>
     </v-row>
   </div>
 </template>
@@ -47,10 +56,8 @@
 <script>
 // @ is an alias to /src
 
-export default {
-  name: "Home",
-  components: {}
-};
+
+
 </script>
 
 <style>

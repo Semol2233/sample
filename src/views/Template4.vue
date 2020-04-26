@@ -1,6 +1,8 @@
 <template>
   <div class="template-page">
-    <div class="text-center mb-4">
+   <v-row>
+     <v-col cols="8"> 
+ <div class="mt-4 mb-2 ml-5 download-container">
       <v-btn color="primary" @click="downloadNow">Download</v-btn>
     </div>
     <div class="routine-container">
@@ -79,13 +81,22 @@
         </table>
       </div>
     </div>
+     </v-col>
+     <v-col cols="4">
+       <googledrive />
+     </v-col>
+   </v-row>
   </div>
 </template>
 
 <script>
 import html2canvas from "html2canvas";
+import googledrive from "@/components/googledrive";
 
 export default {
+       components: {
+       googledrive
+    },
   data() {
     return {
       routineDate: "২৩ এপ্রিলের সময়সুচি",
@@ -118,7 +129,8 @@ export default {
   mounted() {},
   methods: {
     downloadNow() {
-      html2canvas(this.$refs.routine).then(function(canvas) {
+      this.$refs.routine.style.border = "none";
+      html2canvas(this.$refs.routine).then(canvas => {
         // document.body.appendChild(canvas);
         var a = document.createElement("a");
         // toDataURL defaults to png, so we need to request a jpeg, then convert for file download.
@@ -127,6 +139,7 @@ export default {
           .replace("image/jpeg", "image/octet-stream");
         a.download = "template1.jpg";
         a.click();
+        this.$refs.routine.style.border = "1px solid #000";
       });
     }
   }

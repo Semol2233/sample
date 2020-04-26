@@ -1,8 +1,11 @@
 <template>
   <div class="template-page">
-    <div class="text-center mb-4">
+   <v-row>
+     <v-col cols="8">
+ <div class="mt-4 mb-2 ml-5 download-container">
       <v-btn color="primary" @click="downloadNow">Download</v-btn>
     </div>
+
     <div class="routine-container">
       <div class="routine routine--template2" id="routine" ref="routine">
         <div class="date">
@@ -69,13 +72,24 @@
         </table>
       </div>
     </div>
+
+     </v-col>
+
+     <v-col cols="4">
+    <googledrive />
+     </v-col>
+   </v-row>
   </div>
 </template>
 
 <script>
 import html2canvas from "html2canvas";
+import googledrive from "@/components/googledrive"
 
 export default {
+     components: {
+       googledrive
+    },
   data() {
     return {
       routineDate: "২৩ এপ্রিলের সময়সুচি",
@@ -89,11 +103,11 @@ export default {
           time2: "(সকাল ১১.৪৫)"
         },
         {
-          class: "৭ম",
-          subject1: "গণিত (সকাল ১১.৪৫)",
-          time1: "",
-          subject2: "বিজ্ঞান (দুপুর ১২.২৫)",
-          time2: ""
+          class: "৬ষ্ঠ",
+          subject1: "বাংলা",
+          time1: "(সকাল ১১.০৫)",
+          subject2: "ইংরেজি",
+          time2: "(সকাল ১১.৪৫)"
         },
         {
           class: "৮ম",
@@ -122,7 +136,8 @@ export default {
   mounted() {},
   methods: {
     downloadNow() {
-      html2canvas(this.$refs.routine).then(function(canvas) {
+      this.$refs.routine.style.border = "none";
+      html2canvas(this.$refs.routine).then(canvas => {
         // document.body.appendChild(canvas);
         var a = document.createElement("a");
         // toDataURL defaults to png, so we need to request a jpeg, then convert for file download.
@@ -131,6 +146,7 @@ export default {
           .replace("image/jpeg", "image/octet-stream");
         a.download = "template1.jpg";
         a.click();
+        this.$refs.routine.style.border = "1px solid #000";
       });
     }
   }
@@ -144,7 +160,7 @@ export default {
 }
 
 .routine--template2 .routine-table th {
-  padding: 6px 0;
+  padding: 3px 0;
   font-size: 22px;
 }
 
@@ -152,7 +168,7 @@ export default {
   border: 1px solid #fff;
   color: #fff;
   font-size: 19px;
-  padding: 4px 0;
+  padding: 2px 0;
   text-align: center;
 }
 </style>

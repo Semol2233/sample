@@ -40,10 +40,20 @@ const routes = [
     component: () => import("../views/Template4.vue")
   },
   {
-    path: "/template5",
+    path: "/Template5",
     name: "Template5",
     component: () => import("../views/Template5.vue")
-  } 
+  } ,
+  {
+    path: "/Template6",
+    name: "Template6",
+    component: () => import("../views/Template6.vue")
+  },
+  {
+    path: "/DataDrive",
+    name: "DataDrive",
+    component: () => import("../views/DataDrive.vue")
+  }
 ];
 
 const router = new VueRouter({

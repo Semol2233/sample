@@ -1,13 +1,15 @@
 <template>
   <div class="template-page">
-    <div class="text-center mb-4">
+    <v-row>
+      <v-col cols="8">
+<div class="mt-4 mb-2 ml-5 download-container">
       <v-btn color="primary" @click="downloadNow">Download</v-btn>
       <h1>Extra Data 3 col</h1>
     </div>
-    
+
     <div class="routine-container">
       <div class="routine routine--template5" id="routine" ref="routine">
-        <div class="date">
+        <div class="datse">
           <input type="text" class="date-input" v-model="routineDate" />
         </div>
 
@@ -85,13 +87,23 @@
         </table>
       </div>
     </div>
+      </v-col>
+
+      <v-col cols="4">
+<googledrive />
+      </v-col>
+    </v-row>
   </div>
 </template>
 
 <script>
 import html2canvas from "html2canvas";
+import googledrive from "@/components/googledrive"
 
 export default {
+       components: {
+       googledrive
+    },
   data() {
     return {
       routineDate: "২২ এপ্রিলের সময়সুচি",
@@ -134,7 +146,8 @@ export default {
   mounted() {},
   methods: {
     downloadNow() {
-      html2canvas(this.$refs.routine).then(function(canvas) {
+      this.$refs.routine.style.border = "none";
+      html2canvas(this.$refs.routine).then(canvas => {
         // document.body.appendChild(canvas);
         var a = document.createElement("a");
         // toDataURL defaults to png, so we need to request a jpeg, then convert for file download.
@@ -143,6 +156,7 @@ export default {
           .replace("image/jpeg", "image/octet-stream");
         a.download = "template1.jpg";
         a.click();
+        this.$refs.routine.style.border = "1px solid #000";
       });
     }
   }
@@ -150,20 +164,20 @@ export default {
 </script>
 
 <style>
-.routine--template3 .routine-table {
-  margin-top: 180px;
+.routine--template5 .routine-table {
+  margin-top: 16px;
 }
 
-.routine--template3 .routine-table th {
+.routine--template5 .routine-table th {
   padding: 8px 0;
   font-size: 23px;
 }
 
-.routine--template3 .routine-table td {
+.routine--template5 .routine-table td {
   border: 1px solid #fff;
   color: #fff;
   font-size: 23px;
-  padding: 0px 0;
+  padding: 14px 0;
   text-align: center;
 }
 
@@ -172,7 +186,6 @@ export default {
 }
 
 .prak-row input {
-  font-size: 20px;
+  font-size: 21px;
 }
-
 </style>
