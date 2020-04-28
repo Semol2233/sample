@@ -9,7 +9,7 @@
           </div>
         </router-link>
       </v-col>
-<googledrive />
+
       <v-col cols="12" md="4">
         <router-link to="/template2">
           <div class="template">

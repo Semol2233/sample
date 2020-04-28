@@ -1,57 +1,64 @@
 <template>
   <div class="template-page">
-   <v-row>
-     <v-col cols="8">
- <div class="mt-4 mb-2 ml-5 download-container">
-      <v-btn color="primary" @click="downloadNow">Download</v-btn>
-    </div>
-
-    <div class="routine-container">
-      <div class="routine routine--template2" id="routine" ref="routine">
-        <div class="date">
-          <input type="text" class="date-input" v-model="routineDate" />
+    <v-row>
+      <v-col cols="8">
+        <div class="mt-4 mb-2 ml-5 download-container">
+          <v-btn color="primary" @click="downloadNow">Download</v-btn>
         </div>
 
-        <table class="routine-table">
-          <thead>
-            <tr>
-              <th class="column1">শ্রেণী</th>
-              <th class="column2">১ম পিরিয়ড</th>
-              <th class="column3">২য় পিরিয়ড</th>
-            </tr>
-          </thead>
+        <div class="routine-container">
+          <div class="routine routine--template9" id="routine" ref="routine">
+            <div class="date">
+              <input type="text" class="date-input" v-model="routineDate" />
+            </div>
 
-          <tbody>
-            <tr>
-              <td colspan="3">
-                <input type="text" v-model="coronaBreak" class="corona-input" />
-              </td>
-            </tr>
-            <tr v-for="(r, i) in routine" :key="i">
-              <td class="column1">
-                <input type="text" v-model="r.class" class="table-input" />
-              </td>
-              <td class="column2">
-                <input type="text" v-model="r.subject1" class="table-input" />
-                <input
-                  type="text"
-                  v-model="r.time1"
-                  class="table-input"
-                  v-if="r.time1"
-                />
-              </td>
-              <td class="column3">
-                <input type="text" v-model="r.subject2" class="table-input" />
-                <input
-                  type="text"
-                  v-model="r.time2"
-                  class="table-input"
-                  v-if="r.time2"
-                />
-              </td>
-            </tr>
+            <table class="routine-tabsle">
+              <thead>
+                <tr>
+                  <th class="column1 ">শ্রেণী</th>
+                  <th class="column2">১ম পিরিয়ড</th>
+                  <th class="column3">২য় পিরিয়ড</th>
+                </tr>
+              </thead>
 
-            <!-- <tr v-for="(r, i) in routine" :key="i">
+              <tbody>
+                <tr>
+                  <td colspan="4">
+                    <input
+                      type="text"
+                      v-model="coronaBreak"
+                      class="corona-input"
+                    />
+                  </td>
+                </tr>
+                <tr v-for="(r, i) in routine" :key="i">
+                  <td class="column1">
+                    <input type="text" v-model="r.class" class="table-input" />
+                    <input
+                      type="text"
+                      v-model="r.time1"
+                      class="table-input"
+                      v-if="r.time1"
+                    />
+                  </td>
+                  <td class="column2">
+                    <input
+                      type="text"
+                      v-model="r.subject1"
+                      class="table-input"
+                    />
+                  </td>
+                  <td class="column3">
+                    <input
+                      type="text"
+                      v-model="r.subject2"
+                      class="table-input"
+                    />
+
+                  </td>
+                </tr>
+
+                <!-- <tr v-for="(r, i) in routine" :key="i">
               <td>
                 <div contenteditable="true" :value="r.class">
                   {{ r.class }}
@@ -68,28 +75,20 @@
                 </div>
               </td>
             </tr> -->
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-     </v-col>
-
-     <v-col cols="4">
-    <googledrive />
-     </v-col>
-   </v-row>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </v-col>
+    </v-row>
   </div>
 </template>
 
 <script>
 import html2canvas from "html2canvas";
-import googledrive from "@/components/googledrive"
 
 export default {
-     components: {
-       googledrive
-    },
+  components: {},
   data() {
     return {
       routineDate: "২৩ এপ্রিলের সময়সুচি",
@@ -98,35 +97,35 @@ export default {
         {
           class: "৬ষ্ঠ",
           subject1: "বাংলা",
-          time1: "(সকাল ১১.০৫)",
+          time1: "(সকাল ১১.০৫-১১.৪৫)",
           subject2: "ইংরেজি",
           time2: "(সকাল ১১.৪৫)"
         },
         {
           class: "৬ষ্ঠ",
           subject1: "বাংলা",
-          time1: "(সকাল ১১.০৫)",
+          time1: "(সকাল ১১.০৫-১১.৪৫)",
           subject2: "ইংরেজি",
           time2: "(সকাল ১১.৪৫)"
         },
         {
           class: "৮ম",
           subject1: "বাংলা",
-          time1: "(দুপুর ১২.২৫)",
+         time1: "(সকাল ১১.০৫-১১.৪৫)",
           subject2: "গণিত",
           time2: "(দুপুর ১.০৫)"
         },
         {
           class: "৯ম",
           subject1: "গণিত",
-          time1: "(দুপুর ১.০৫)",
+          time1: "(সকাল ১১.০৫-১১.৪৫)",
           subject2: "ইংরেজি",
           time2: "(দুপুর ১.৪৫)"
         },
         {
           class: "১০ম",
           subject1: "ইংরেজি",
-          time1: "(দুপুর ১.৪৫)",
+          time1: "(সকাল ১১.০৫-১১.৪৫)",
           subject2: "রসায়ন",
           time2: "(দুপুর ২.২৫)"
         }
@@ -157,6 +156,7 @@ export default {
 .corona-input {
   width: 100%;
   text-align: center;
+font-size: 22px;
 }
 
 .routine--template2 .routine-table th {
@@ -169,6 +169,58 @@ export default {
   color: #fff;
   font-size: 19px;
   padding: 2px 0;
+  text-align: center;
+}
+
+.routine--template9 .column1 {
+  width: 232px;
+}
+.routine--template9 .column1 .table-input {
+  max-width: 222px;
+}
+
+.routine--template9 .column2 {
+  width: 232px;
+}
+.routine--template9 .column2 .table-input {
+  max-width: 222px;
+}
+
+.routine--template9 .column3 {
+  width: 232px;
+}
+.routine--template9 .column3 .table-input {
+  max-width: 222px;
+}
+
+.routine-tabsle {
+  border: 2px solid #fff;
+  width: 691px;
+  margin-left: 97px;
+  margin-top: 16px;
+  border-collapse: collapse;
+}
+
+.routine--template2 .routine-tabsle {
+  margin-left: 104px;
+  margin-top: 22px;
+}
+
+.routine-tabsle th {
+  border: 1px solid #fff;
+  border-collapse: collapse;
+  color: #fff;
+  font-size: 22px;
+  padding: 10px 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.routine-tabsle td {
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 20px;
+  padding: 0px 0;
   text-align: center;
 }
 </style>

@@ -60,7 +60,7 @@ export default {
   },
 
   data: () => ({
-    drawer: null,
+    drawer: '',
     password: "",
     loggedIn: true,
     snackbar: false
