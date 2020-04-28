@@ -6,12 +6,12 @@
       <v-btn color="primary" @click="downloadNow">Download</v-btn>
     </div>
     <div class="routine-container">
-      <div class="routine routine--template3" id="routine" ref="routine">
+      <div class="routine routine--template10" id="routine" ref="routine">
         <div class="date">
           <input type="text" class="date-input" v-model="routineDate" />
         </div>
 
-        <table class="routine-table">
+        <table class="routine-tabszle">
           <thead>
             <tr>
               <th class="column1">শ্রেণী</th>
@@ -173,7 +173,7 @@ export default {
 .routine--template3 .routine-table td {
   border: 1px solid #fff;
   color: #fff;
-  font-size: 23px;
+  font-size: 22px;
   padding: 9px 0;
   text-align: center;
 }
@@ -184,5 +184,58 @@ export default {
 
 .prak-row input {
   font-size: 21px;
+}
+
+
+.routine--template10 .column1 {
+  width: 232px;
+}
+.routine--template10 .column1 .table-input {
+  max-width: 162px;
+}
+
+.routine--template10 .column2 {
+  width: 200px;
+}
+.routine--template10 .column2 .table-input {
+  max-width: 253px;
+}
+
+.routine--template10 .column3 {
+  width: 232px;
+}
+.routine--template10 .column3 .table-input {
+  max-width: 222px;
+}
+
+.routine-tabszle {
+border: 2px solid #fff;
+    width: 683px;
+    margin-left: 110px;
+    margin-top: 14px;
+    border-collapse: collapse;
+}
+
+.routine--template2 .routine-tabszle {
+  margin-left: 104px;
+  margin-top: 22px;
+}
+
+.routine-tabszle th {
+  border: 1px solid #fff;
+  border-collapse: collapse;
+  color: #fff;
+  font-size: 22px;
+  padding: 10px 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.routine-tabszle td {
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 20px;
+  padding: 11px 0;
+  text-align: center;
 }
 </style>
