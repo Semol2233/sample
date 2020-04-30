@@ -136,6 +136,13 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap');
+
+.template-page{
+       font-family: 'Baloo Da 2', cursive;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+}
 .corona-input {
   width: 100%;
   text-align: center;
