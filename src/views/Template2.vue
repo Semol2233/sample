@@ -1,64 +1,49 @@
 <template>
   <div class="template-page">
-    <v-row>
-      <v-col cols="8">
-        <div class="mt-4 mb-2 ml-5 download-container">
-          <v-btn color="primary" @click="downloadNow">Download</v-btn>
+    <div class="mt-4 mb-2 ml-5 download-container">
+      <v-btn color="primary" @click="downloadNow">Download</v-btn>
+    </div>
+
+    <div class="routine-container">
+      <div class="routine routine--template9" id="routine" ref="routine">
+        <div class="date">
+          <input type="text" class="date-input" v-model="routineDate" />
         </div>
 
-        <div class="routine-container">
-          <div class="routine routine--template9" id="routine" ref="routine">
-            <div class="date">
-              <input type="text" class="date-input" v-model="routineDate" />
-            </div>
+        <table class="routine-tabsle">
+          <thead>
+            <tr>
+              <th class="column1 ">শ্রেণী</th>
+              <th class="column2">১ম পিরিয়ড</th>
+              <th class="column3">২য় পিরিয়ড</th>
+            </tr>
+          </thead>
 
-            <table class="routine-tabsle">
-              <thead>
-                <tr>
-                  <th class="column1 ">শ্রেণী</th>
-                  <th class="column2">১ম পিরিয়ড</th>
-                  <th class="column3">২য় পিরিয়ড</th>
-                </tr>
-              </thead>
+          <tbody>
+            <tr>
+              <td colspan="4">
+                <input type="text" v-model="coronaBreak" class="corona-input" />
+              </td>
+            </tr>
+            <tr v-for="(r, i) in routine" :key="i">
+              <td class="column1">
+                <input type="text" v-model="r.class" class="table-input" />
+                <input
+                  type="text"
+                  v-model="r.time1"
+                  class="table-input"
+                  v-if="r.time1"
+                />
+              </td>
+              <td class="column2">
+                <input type="text" v-model="r.subject1" class="table-input" />
+              </td>
+              <td class="column3">
+                <input type="text" v-model="r.subject2" class="table-input" />
+              </td>
+            </tr>
 
-              <tbody>
-                <tr>
-                  <td colspan="4">
-                    <input
-                      type="text"
-                      v-model="coronaBreak"
-                      class="corona-input"
-                    />
-                  </td>
-                </tr>
-                <tr v-for="(r, i) in routine" :key="i">
-                  <td class="column1">
-                    <input type="text" v-model="r.class" class="table-input" />
-                    <input
-                      type="text"
-                      v-model="r.time1"
-                      class="table-input"
-                      v-if="r.time1"
-                    />
-                  </td>
-                  <td class="column2">
-                    <input
-                      type="text"
-                      v-model="r.subject1"
-                      class="table-input"
-                    />
-                  </td>
-                  <td class="column3">
-                    <input
-                      type="text"
-                      v-model="r.subject2"
-                      class="table-input"
-                    />
-
-                  </td>
-                </tr>
-
-                <!-- <tr v-for="(r, i) in routine" :key="i">
+            <!-- <tr v-for="(r, i) in routine" :key="i">
               <td>
                 <div contenteditable="true" :value="r.class">
                   {{ r.class }}
@@ -75,12 +60,10 @@
                 </div>
               </td>
             </tr> -->
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </v-col>
-    </v-row>
+          </tbody>
+        </table>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -156,7 +139,7 @@ export default {
 .corona-input {
   width: 100%;
   text-align: center;
-font-size: 22px;
+  font-size: 22px;
 }
 
 .routine--template2 .routine-table th {
