@@ -65,11 +65,9 @@ export default {
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;600;700&display=swap");
 
-.template-page {
-  font-family: "Hind Siliguri", sans-serif;
-}
+
+
 
 .flex-container {
   display: flex;

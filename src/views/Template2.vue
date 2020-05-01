@@ -136,11 +136,7 @@ export default {
 </script>
 
 <style>
-/* @font-face {
-  font-family: "kongshomjregular";
-  src: url("~/font/kongshomj_regular-webfont.woff2") format("woff2");
-  font-weight: bold;
-} */
+
 
 .corona-input {
   width: 100%;

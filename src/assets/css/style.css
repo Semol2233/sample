@@ -9,7 +9,9 @@
   padding: 22px;
   /* -ms-overflow-style: none; */
 }
-
+.template-page {
+  font-family: "Hind Siliguri", sans-serif;
+}
 /* Hide scrollbar for Chrome, Safari and Opera */
 .routine-container::-webkit-scrollbar {
   /* display: none; */
