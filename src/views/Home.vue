@@ -18,10 +18,18 @@
         </router-link>
       </v-col>
 
-      <v-col cols="12" md="4">
+      <!-- <v-col cols="12" md="4">
         <router-link to="/template3">
           <div class="template">
             <img src="/img/template3.png" alt="" />
+          </div>
+        </router-link>
+      </v-col> -->
+
+                     <v-col cols="12" md="4">
+        <router-link to="/ramadan">
+          <div class="template">
+            <img src="/img/1-01-01.jpg" alt="" />
           </div>
         </router-link>
       </v-col>
@@ -49,13 +57,6 @@
           </div>
         </router-link>
 
-                     <v-col cols="12" md="4">
-        <router-link to="/ramadan">
-          <div class="template">
-            <img src="/img/1-01-01.jpg" alt="" />
-          </div>
-        </router-link>
-      </v-col>
       </v-col>
     </v-row>
   </div>
