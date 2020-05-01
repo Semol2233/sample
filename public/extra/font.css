@@ -2,8 +2,10 @@
 @font-face {
   font-family: 'kongshomjregular';
   font-style: normal;
-  font-weight: 600;
+  font-weight: bold;
   src: url('kongshomj_regular-webfont.woff');
+  src: url('kongshomj_regular-webfont.woff2');
+
     font-weight: normal;
 }
 

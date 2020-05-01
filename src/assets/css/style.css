@@ -9,8 +9,12 @@
   padding: 22px;
   /* -ms-overflow-style: none; */
 }
+/* .template-page {
+  font-family: "Hind Siliguri", sans-serif;
+} */
+
 .template-page {
-  font-family: 'Baloo Da 2';
+  font-family: 'kongshomjregular' sans-serif;
 }
 /* Hide scrollbar for Chrome, Safari and Opera */
 .routine-container::-webkit-scrollbar {
