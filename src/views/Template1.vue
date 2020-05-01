@@ -102,7 +102,7 @@ export default {
   },
   data() {
     return {
-      routineDate: "৩ মে সময়সুচি",
+      routineDate: "৩ মে এর সময়সূচি",
       routine: [
         {
           class: "৭ম",
