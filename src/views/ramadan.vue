@@ -32,7 +32,7 @@ export default {
       routineDate: "০৮ রমজান ০১ মে ,শুক্রবার ২০২০",
       routinessDate: [
         {
-          time: "০৩.৫৯ মি."
+          time: "৩.৫৯ মি."
         },
 
         {
