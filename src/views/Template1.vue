@@ -163,6 +163,9 @@ export default {
 </script>
 
 <style>
+ .template-page {
+  font-family: 'kongshomjregular';
+} 
 .routine--template .routine-table td {
   border: 1px solid #fff;
   color: #fff;
