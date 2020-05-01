@@ -99,7 +99,7 @@ export default {
     },
   data() {
     return {
-      routineDate: "২৩ এপ্রিলের সময়সুচি",
+      routineDate: "৩ মে সময়সুচি",
       routine: [
         {
           class: "৯ম",

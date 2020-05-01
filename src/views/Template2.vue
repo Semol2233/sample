@@ -74,7 +74,7 @@ export default {
   components: {},
   data() {
     return {
-      routineDate: "২৩ এপ্রিলের সময়সুচি",
+      routineDate: "৩ মে সময়সুচি",
       coronaBreak: "জাতীয় সঙ্গীত ও করোনা সচেতনতা (সকাল ১১ঃ০০-১১ঃ০৫)",
       routine: [
         {
