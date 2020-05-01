@@ -36,3 +36,7 @@ selenium-debug.log
 *.ntvs*
 *.njsproj
 *.sln
+
+
+ // eslint-disable-next-line
+ /* eslint-disable */

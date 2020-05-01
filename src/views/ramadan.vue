@@ -7,14 +7,14 @@
     <div class="routine-container">
       <div class="routine routine--template10" id="routine" ref="routine">
         <div class="dassste">
-          <input type="text" class="date-input" v-model="routineDate" />
+          <input type="text" class="date-inpssut" v-model="routineDate" />
         </div>
 
         <div class="flex-container">
           <div v-for="(r, i) in routinessDate" :key="i">
             <div class="dassssste">
-            <input type="text" class="date-input" v-model="r.time" />
-          </div>
+              <input type="text" class="date-inpssut" v-model="r.time" />
+            </div>
           </div>
         </div>
       </div>
@@ -77,17 +77,22 @@ export default {
   margin-top: 99px;
   margin-left: 170px;
 }
+
+.date-inpssut {
+  max-width: 100%;
+  text-align: center;
+}
 .dassste {
-margin-left: 224px;
-    width: 456px;
-    height: 68px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    font-weight: bold;
-    font-size: 35px;
-    margin-top: 165px;
+  margin-left: 224px;
+  width: 456px;
+  height: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 35px;
+  margin-top: 165px;
 }
 
 .dassssste {
@@ -152,7 +157,11 @@ margin-left: 224px;
   margin-left: 104px;
   margin-top: 22px;
 }
-
+.date-inpssut{
+    max-width: 100%;
+    text-align: center;
+    width: 477px;
+}
 .routine-tabsle th {
   border: 1px solid #fff;
   border-collapse: collapse;
