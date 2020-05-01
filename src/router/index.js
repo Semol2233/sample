@@ -53,8 +53,15 @@ const routes = [
     path: "/DataDrive",
     name: "DataDrive",
     component: () => import("../views/DataDrive.vue")
+  },
+  {
+    path: "/ramadan",
+    name: "ramadan",
+    component: () => import("../views/ramadan.vue")
   }
 ];
+
+
 
 const router = new VueRouter({
   mode: "history",

@@ -52,6 +52,12 @@
   background-size: 100% 100%;
   padding-top: 190px;
 }
+
+.routine--template10 {
+  background-image: url("/img/1-01-01.jpg");
+  background-size: 100% 100%;
+  padding-top: 190px;
+}
 .date {
   margin-left: 231px;
   width: 441px;
