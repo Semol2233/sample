@@ -111,7 +111,7 @@ export default {
       prakPrathomik: {
         class: "প্রাক-প্রাথমিক",
         subject1: "ক্রিয়াকালাপ ভিডিও",
-        subject2: " আনন্দদায়ক শিখন (পুনঃপ্রচার)",
+        subject2: "আনন্দদায়ক শিখন(পুনঃপ্রচার)",
         duration: "০৯.০০-০৯.২০"
       },
       routine: [
@@ -165,11 +165,11 @@ export default {
 
 <style>
 .routine--template5 .routine-table {
-  margin-top: 13px;
+  margin-top: 16px;
 }
 
 .routine--template5 .routine-table th {
-  padding: 14px 0;
+  padding: 12px 0;
   font-size: 23px;
 }
 
