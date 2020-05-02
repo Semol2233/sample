@@ -110,15 +110,15 @@ export default {
       coronaBreak: "জাতীয় সঙ্গীত ও করোনা সচেতনতা (সকাল সকাল ১০.৪০-১০.৪৫)",
       prakPrathomik: {
         class: "প্রাক-প্রাথমিক",
-        subject1: "ক্রিয়াকালাপ ভিডিও",
-        subject2: "আনন্দদায়ক শিখন(পুনঃপ্রচার)",
-        duration: "০৯.০০-০৯.২০"
+        subject1: "ক্রিয়াকলাপভিত্তিক ",
+        subject2: "আনন্দদায়ক শিখন",
+        duration: "৯:৪০-১০:০০"
       },
       routine: [
         {
           class: "১ম",
           subject: "বাংলা (পুনঃপ্রচার)",
-          duration: "০৯.২০-০৯.৪০"
+          duration: "১০:০০-১০:২০"
         },
         // {
         //   class: "২য়",
@@ -128,7 +128,7 @@ export default {
         {
           class: "৩য়",
           subject: "গণিত",
-          duration: "১০.০০-১০.২০"
+          duration: "১০:২০-১০:৪০"
         }
         // {
         //   class: "৪র্থ",
