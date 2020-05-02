@@ -75,7 +75,7 @@ export default {
   data() {
     return {
       routineDate: "৩ মে এর সময়সূচি ",
-      coronaBreak: "জাতীয় সঙ্গীত ও করোনা সচেতনতা (সকাল ১১ঃ০০-১১ঃ০৫)",
+      coronaBreak: "জাতীয় সঙ্গীত ও করোনা সচেতনতা (সকাল ১০.৪০-১০.৪৫)",
       routine: [
         {
           class: "৬ষ্ঠ",
