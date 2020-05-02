@@ -165,11 +165,11 @@ export default {
 
 <style>
 .routine--template5 .routine-table {
-  margin-top: 16px;
+  margin-top: 13px;
 }
 
 .routine--template5 .routine-table th {
-  padding: 12px 0;
+  padding: 14px 0;
   font-size: 23px;
 }
 
