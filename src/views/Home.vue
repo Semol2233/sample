@@ -37,7 +37,7 @@
               <v-img class="white--text align-end " src="/img/template1.png">
               </v-img>
             </router-link>
-            <v-card-title class="white--text text--lighten-1 dfcdacasdcs"
+            <v-card-title class="yellow--text text--lighten-1 dfcdacasdcs"
               ><strong>আমার ঘরে আমার মাদ্রাসা </strong></v-card-title
             >
           </v-card>
@@ -49,7 +49,7 @@
             <v-img class="white--text align-end " src="/img/template2.png">
             </v-img>
             </router-link>
-             <v-card-title class="white--text text--lighten-1 dfcdacasdcs"
+             <v-card-title class="yellow--text text--lighten-1 dfcdacasdcs"
                 ><strong>আমার ঘরে আমার স্কুল</strong></v-card-title
               >
           </v-card>
@@ -71,7 +71,7 @@
               ></v-img>
             </router-link>
 
-            <v-card-title class="white--text text--lighten-1 dfcdacasdcs"
+            <v-card-title class="yellow--text text--lighten-1 dfcdacasdcs"
               ><strong>ঘরে বসে শিখি </strong></v-card-title
             >
           </v-card>
@@ -83,7 +83,7 @@
               <v-img class="white--text align-end " src="/img/template4.png">
               </v-img>
             </router-link>
-            <v-card-title class="white--text text--lighten-1 dfcdacasdcs"
+            <v-card-title class="yellow--text text--lighten-1 dfcdacasdcs"
               ><strong>ঘরে বসে করিগরি শিক্ষা </strong></v-card-title
             >
           </v-card>
@@ -103,7 +103,7 @@
               <v-img class="white--text align-end " src="/img/1-01-01.jpg">
               </v-img>
                </router-link>
-               <v-card-title class="white--text text--lighten-1 dfcdacasdcs"
+               <v-card-title class="yellow--text text--lighten-1 dfcdacasdcs"
                   ><strong>রামাদান</strong></v-card-title
                 >
             </v-card>
