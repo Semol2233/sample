@@ -81,16 +81,16 @@ export default {
   text-align: center;
 }
 .dassste {
-  margin-left: 224px;
-  width: 456px;
-  height: 68px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  font-weight: bold;
-  font-size: 35px;
-  margin-top: 165px;
+    margin-left: 224px;
+    width: 456px;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 34px;
+    margin-top: 163px;
 }
 
 .dassssste {
