@@ -13,7 +13,7 @@
           <input type="text" class="date-input" v-model="routineDate" />
         </div>
 
-        <table class="routine-table">
+        <table class="routsssine-table">
           <thead>
             <tr>
               <th class="column1">শ্রেণী</th>
@@ -164,16 +164,16 @@ export default {
 </script>
 
 <style>
-.routine--template5 .routine-table {
-  margin-top: 16px;
+.routine--template5 .routsssine-table {
+margin-top: 14px;
 }
 
-.routine--template5 .routine-table th {
+.routine--template5 .routsssine-table th {
   padding: 8px 0;
   font-size: 23px;
 }
 
-.routine--template5 .routine-table td {
+.routine--template5 .routsssine-table td {
   border: 1px solid #fff;
   color: #fff;
   font-size: 23px;
@@ -187,5 +187,37 @@ export default {
 
 .prak-row input {
   font-size: 21px;
+}
+
+
+.routsssine-table {
+border: 2px solid #fff;
+width: 684px;
+margin-left: 110px;
+margin-top: 25px;
+border-collapse: collapse;
+}
+
+.routine--template2 .routsssine-table {
+  margin-left: 104px;
+  margin-top: 22px;
+}
+
+.routsssine-table th {
+  border: 1px solid #fff;
+  border-collapse: collapse;
+  color: #fff;
+  font-size: 22px;
+  padding: 10px 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.routsssine-table td {
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 25px;
+  padding: 10px 0;
+  text-align: center;
 }
 </style>

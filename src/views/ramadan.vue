@@ -89,7 +89,7 @@ export default {
     align-items: center;
     color: #fff;
     font-weight: bold;
-    font-size: 34px;
+    font-size: 31px;
     margin-top: 163px;
 }
 

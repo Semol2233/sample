@@ -63,9 +63,18 @@ const routes = [
     path: "/teamplate7",
     name: "teamplate7",
     component: () => import("../views/Template7.vue")
+  },
+  {
+    path: "/karigori",
+    name: "karigori",
+    component: () => import("../views/karigori.vue")
+  },
+  {
+    path: "/ghorebose",
+    name: "ghorebose",
+    component: () => import("../views/ghorebose.vue")
   }
 ];
-
 
 const router = new VueRouter({
   mode: "history",
