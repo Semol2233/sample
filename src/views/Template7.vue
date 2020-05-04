@@ -1,57 +1,60 @@
 <template>
   <div class="template-page">
-   <v-row>
-     <v-col cols="8"> 
- <div class="mt-4 mb-2 ml-5 download-container">
-      <v-btn color="primary" @click="downloadNow">Download</v-btn>
-    </div>
-    <div class="routine-container">
-      <div class="routine routine--template7" id="routine" ref="routine">
-        <div class="dasste">
-          <input type="text" class="date-input" v-model="routineDate" />
+    <v-row>
+      <v-col cols="8">
+        <div class="mt-4 mb-2 ml-5 download-container">
+          <v-btn color="primary" @click="downloadNow">Download</v-btn>
         </div>
+        <div class="routine-container">
+          <div class="routine routine--template7" id="routine" ref="routine">
+            <div class="dasste">
+              <input type="text" class="date-input" v-model="routineDate" />
+            </div>
 
-        <table class="routssine-table">
-          <thead>
-            <tr>
-              <th class="column1">শ্রেণী</th>
-              <th class="column2">১ম পিরিয়ড</th>
-              <th class="column3">২য় পিরিয়ড</th>
-            </tr>
-          </thead>
+            <table class="routssine-table">
+              <thead>
+                <tr>
+                  <th class="column1">শ্রেণী</th>
+                  <th class="column2">১ম পিরিয়ড</th>
+                  <th class="column3">২য় পিরিয়ড</th>
+                </tr>
+              </thead>
 
-          <tbody>
-            <tr v-for="(r, i) in routine" :key="i">
-              <td class="column1">
-                <input type="text" v-model="r.class" class="tasble-input" />
-              </td>
-              <td class="column2">
-              
-                
+              <tbody>
+                <tr v-for="(r, i) in routine" :key="i">
+                  <td class="column1">
+                    <input type="text" v-model="r.class" class="tasble-input" />
+                  </td>
+                  <td class="column2">
+                    <input
+                      type="text"
+                      v-model="r.subject2"
+                      class="tasble-input"
+                    />
+                    <input
+                      type="text"
+                      v-model="r.time2"
+                      class="tasble-input tasble-input--small"
+                    />
+                  </td>
+                  <td class="column3">
+                    <hr class="blank" v-if="!r.subject3" />
+                    <template v-else>
+                      <input
+                        type="text"
+                        v-model="r.subject4"
+                        class="tasble-input"
+                      />
+                      <input
+                        type="text"
+                        v-model="r.time4"
+                        class="tasble-input tasble-input--small"
+                      />
+                    </template>
+                  </td>
+                </tr>
 
-                <input type="text" v-model="r.subject2" class="tasble-input" />
-                <input
-                  type="text"
-                  v-model="r.time2"
-                  class="tasble-input tasble-input--small"
-                />
-              </td>
-              <td class="column3">
-                <hr class="blank" v-if="!r.subject3" />
-                <template v-else>
-                
-                  
-                  <input type="text" v-model="r.subject4" class="tasble-input" />
-                  <input
-                    type="text"
-                    v-model="r.time4"
-                    class="tasble-input tasble-input--small"
-                  />
-                </template>
-              </td>
-            </tr>
-
-            <!-- <tr v-for="(r, i) in routine" :key="i">
+                <!-- <tr v-for="(r, i) in routine" :key="i">
               <td>
                 <div contenteditable="true" :value="r.class">
                   {{ r.class }}
@@ -68,15 +71,15 @@
                 </div>
               </td>
             </tr> -->
-          </tbody>
-        </table>
-      </div>
-    </div>
-     </v-col>
-     <v-col cols="4">
-       <googledrive />
-     </v-col>
-   </v-row>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </v-col>
+      <v-col cols="4">
+        <googledrive />
+      </v-col>
+    </v-row>
   </div>
 </template>
 
@@ -85,9 +88,9 @@ import html2canvas from "html2canvas";
 import googledrive from "@/components/googledrive";
 
 export default {
-       components: {
-       googledrive
-    },
+  components: {
+    googledrive
+  },
   data() {
     return {
       routineDate: "৩ মে এর সময়সূচি ",
@@ -183,26 +186,20 @@ hr.blank {
   margin: auto;
 }
 
-
-
-
-
-
 .routssine-table {
-    border: 2px solid #fff;
-    width: 577px;
-    margin-left: 162px;
-    margin-top: 6px;
-    border-collapse: collapse;
+  border: 2px solid #fff;
+  width: 577px;
+  margin-left: 162px;
+  margin-top: 6px;
+  border-collapse: collapse;
 }
-
 
 .routssine-table th {
   border: 1px solid #fff;
   border-collapse: collapse;
   color: #fff;
   font-size: 22px;
-  padding: 10px 0;
+  padding: 11px 0;
   text-align: center;
   font-weight: bold;
 }
@@ -215,29 +212,22 @@ hr.blank {
   text-align: center;
 }
 
-
 .dasste {
-    margin-left: 231px;
-    width: 441px;
-    height: 68px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    font-weight: bold;
-    font-size: 43px;
-    margin-top: 104px;
+  margin-left: 231px;
+  width: 441px;
+  height: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 43px;
+  margin-top: 104px;
 }
-
-
-
-
 
 .column2 .tasble-input {
-  max-width: 264px;
+  width: 255px;
 }
-
-
 
 .tasble-input {
   max-width: 100%;

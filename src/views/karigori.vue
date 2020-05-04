@@ -41,7 +41,7 @@
             </router-link>
 
             <v-card-title class="white--text text--lighten-1 dfcdacasdcs"
-              ><strong>ঘরে বসে করিগরি শিক্ষা </strong></v-card-title
+              ><strong> ঘরে বসে শিখি</strong></v-card-title
             >
           </v-card>
         </v-col>
@@ -53,7 +53,7 @@
               </v-img>
             </router-link>
             <v-card-title class="white--text text--lighten-1 dfcdacasdcs"
-              ><strong>ঘরে বসে করিগরি শিক্ষা </strong></v-card-title
+              ><strong>ঘরে বসে শিখি</strong></v-card-title
             >
           </v-card>
         </v-col>
