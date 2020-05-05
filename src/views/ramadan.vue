@@ -67,7 +67,10 @@ export default {
 <style>
 
 
+.template-page{
+   font-family: "Hind Siliguri", sans-serif;
 
+}
 
 .flex-container {
   display: flex;

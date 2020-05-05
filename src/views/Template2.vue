@@ -137,7 +137,10 @@ export default {
 
 <style>
 
+.template-page{
+   font-family: "Hind Siliguri", sans-serif;
 
+}
 .corona-input {
   width: 100%;
   text-align: center;

@@ -11,7 +11,7 @@
           <input type="text" class="date-input" v-model="routineDate" />
         </div>
 
-        <table class="routine-table">
+        <table class="rSSSFDoutine-table">
           <thead>
             <tr>
               <th class="column1">শ্রেণী</th>
@@ -147,22 +147,22 @@ export default {
 </script>
 
 <style>
-.routine--template4 .routine-table {
-  margin-top: 11px;
-  margin-left: 167px;
-  width: auto;
+.template-page{
+   font-family: "Hind Siliguri", sans-serif;
+
 }
 
-.routine--template4 .routine-table th {
+
+.routine--template4 .rSSSFDoutine-table th {
   padding: 5px 0;
   font-size: 20px;
 }
 
-.routine--template4 .routine-table td {
+.routine--template4 .rSSSFDoutine-table td {
   border: 1px solid #fff;
   color: #fff;
   font-size: 18px;
-  padding: 5px 0;
+  padding: 7px 0;
   text-align: center;
 }
 
@@ -190,5 +190,59 @@ hr.blank {
   border-top: 1px solid #015758;
   border-bottom: 1px solid #2f8788;
   margin: auto;
+}
+
+
+ .column1 {
+  min-width: 99px;
+} 
+
+ .column1 .table-input {
+  max-width: 104px;
+}
+
+
+.column2 .table-input {
+  max-width: 288px;
+}
+
+
+.column3 .table-input {
+  max-width: 240px;
+}
+
+
+
+
+
+.rSSSFDoutine-table {
+    border: 2px solid #fff;
+    width: 575px;
+    margin-left: 163px;
+    margin-top: 6px;
+    border-collapse: collapse;
+}
+
+.rSSSFDoutine--template2 .rSSSFDoutine-table {
+  margin-left: 104px;
+  margin-top: 22px;
+}
+
+.rSSSFDoutine-table th {
+  border: 1px solid #fff;
+  border-collapse: collapse;
+  color: #fff;
+  font-size: 22px;
+  padding: 10px 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.rSSSFDoutine-table td {
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 25px;
+  padding: 10px 0;
+  text-align: center;
 }
 </style>

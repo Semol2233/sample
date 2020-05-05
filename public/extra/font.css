@@ -1,12 +1,4 @@
 
-@font-face {
-  font-family: 'kongshomjregular';
-  font-style: normal;
-  font-weight: bold;
-  src: url('kongshomj_regular-webfont.woff');
-  src: url('kongshomj_regular-webfont.woff2');
-
-    font-weight: normal;
 }
 
 
@@ -38,6 +30,14 @@
   font-weight: bold;
   font-style: normal;
 
+}
+
+
+@font-face {
+  font-family: 'kongshomjregular';
+  src: url('KongshoMatraMJ-Bold.ttf');
+    font-style: normal;
+    font-weight: 100;
 }
 
 

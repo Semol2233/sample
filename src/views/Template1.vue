@@ -8,11 +8,11 @@
 
         <div class="routine-container">
           <div class="routine routine--template  " id="routine" ref="routine">
-            <div class="date">
-              <input type="text" class="date-input" v-model="routineDate" />
+            <div class="datssse">
+              <input type="text" class="ddate-input" v-model="routineDate" />
             </div>
 
-            <table class="routine-table">
+            <table class="routssine-table">
               <thead>
                 <tr>
                   <th class="column1">শ্রেণী</th>
@@ -30,14 +30,14 @@
                     <input
                       type="text"
                       v-model="r.subject"
-                      class="table-input"
+                      class="tasddble-input"
                     />
                   </td>
                   <td class="column3">
                     <input
                       type="text"
                       v-model="r.duration"
-                      class="table-input"
+                      class="tasddble-input"
                     />
                   </td>
                 </tr>
@@ -163,16 +163,106 @@ export default {
 </script>
 
 <style>
-
-.routine--template .routine-table td {
+.datssse{
+    font-family: "Hind Siliguri", sans-serif;
+}
+.routine--template .routssine-table td {
   border: 1px solid #fff;
   color: #fff;
   font-size: 23px;
-  padding: 28px 0;
+  padding: 30px 0;
   text-align: center;
 }
 
 .width {
   margin-bottom: 404px;
 }
+
+.routssine-table{
+  font-family: 'kongshomjregular';
+}
+.ddate-input {
+    text-align: center;
+    width: 461px;
+    margin-top: 5px;
+    height: 68px;
+}
+
+
+
+.routssine-table {
+    border: 2px solid #fff;
+    width: 688px;
+    margin-left: 108px;
+    margin-top: 17px;
+    border-collapse: collapse;
+}
+
+.routine--template2 .routssine-table {
+  margin-left: 104px;
+  margin-top: 22px;
+}
+
+.routssine-table th {
+  border: 1px solid #fff;
+  border-collapse: collapse;
+  color: #fff;
+  font-size: 22px;
+  padding: 10px 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.routssine-table td {
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 25px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.datssse {
+  margin-left: 231px;
+  width: 441px;
+  height: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 43px;
+}
+
+
+
+  .column2 .tasddble-input {
+width: 282px;
+    height: 35px;
+        text-align: center;
+}
+  .column3 .tasddble-input {
+width: 282px;
+    height: 35px;
+        text-align: center;
+}
+
+
+ .column1 {
+  min-width: 99px;
+} 
+
+ .column1 .table-input {
+  max-width: 104px;
+}
+
+
+.column2 .table-input {
+  max-width: 288px;
+}
+
+
+.column3 .table-input {
+  max-width: 240px;
+} 
 </style>
