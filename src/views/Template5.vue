@@ -220,4 +220,23 @@ border-collapse: collapse;
   padding: 10px 0;
   text-align: center;
 }
+
+
+ .column1 {
+  min-width: 99px;
+} 
+
+ .column1 .table-input {
+  max-width: 104px;
+}
+
+
+.column2 .table-input {
+  max-width: 288px;
+}
+
+
+.column3 .table-input {
+  max-width: 240px;
+} 
 </style>
