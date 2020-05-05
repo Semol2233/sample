@@ -184,7 +184,7 @@ export default {
 border: 1px solid #fff;
     color: #fff;
     font-size: 22px;
-    padding: 11px 0;
+    padding: 8px 0;
     text-align: center;
 }
 
