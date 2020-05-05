@@ -170,7 +170,7 @@ export default {
   border: 1px solid #fff;
   color: #fff;
   font-size: 23px;
-  padding: 30px 0;
+  padding: 29px 0;
   text-align: center;
 }
 
