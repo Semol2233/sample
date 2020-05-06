@@ -183,7 +183,7 @@ export default {
 .routine--template5 .routssine-table td {
 border: 1px solid #fff;
     color: #fff;
-    font-size: 22px;
+    font-size: 21px;
     padding: 10px 0;
     text-align: center;
 }
