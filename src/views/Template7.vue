@@ -141,6 +141,10 @@ export default {
 </script>
 
 <style>
+.template-page{
+   font-family: "Hind Siliguri", sans-serif;
+
+}
 .routine--template4 .routine-tasble {
   margin-top: 11px;
   margin-left: 167px;
