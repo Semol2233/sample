@@ -8,7 +8,7 @@
         <div class="routine-container">
           <div class="routine routine--template7" id="routine" ref="routine">
             <div class="dasste">
-              <input type="text" class="date-input" v-model="routineDate" />
+              <input type="text" class="dasste-input" v-model="routineDate" />
             </div>
 
             <table class="routssine-table">
@@ -243,5 +243,11 @@ hr.blank {
 
 .column1 .tasble-input {
   max-width: 98px;
+}
+
+.dasste-input {
+    max-width: 100%;
+    text-align: center;
+    margin-top: 9px;
 }
 </style>
