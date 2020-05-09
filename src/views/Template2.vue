@@ -16,8 +16,9 @@
               <th class="column1 ">শ্রেণী</th>
               <th class="column2">১ম পিরিয়ড</th>
               <th class="column3">২য় পিরিয়ড</th>
+              <th class="column4">৩য় পিরিয়ড</th>
             </tr>
-          </thead>
+          </thead> 
 
           <tbody>
             <tr>
@@ -39,6 +40,9 @@
                 <input type="text" v-model="r.subject1" class="table-input" />
               </td>
               <td class="column3">
+                <input type="text" v-model="r.subject2" class="table-input" />
+              </td>
+                      <td class="column4">
                 <input type="text" v-model="r.subject2" class="table-input" />
               </td>
             </tr>
@@ -171,16 +175,22 @@ export default {
   width: 232px;
 }
 .routine--template9 .column2 .table-input {
-  max-width: 222px;
+  max-width: 157px;
 }
 
 .routine--template9 .column3 {
   width: 232px;
 }
 .routine--template9 .column3 .table-input {
-  max-width: 222px;
+  max-width: 157px;
 }
 
+.routine--template9 .column4 {
+  width: 232px;
+}
+.routine--template9 .column4 .table-input {
+  max-width: 149px;
+}
 .routine-tabsle {
   border: 2px solid #fff;
   width: 691px;
