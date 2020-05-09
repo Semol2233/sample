@@ -192,7 +192,7 @@ export default {
 
 .routssine-table {
   border: 2px solid #fff;
-  width: 688px;
+  width: 689px;
   margin-left: 108px;
   margin-top: 17px;
   border-collapse: collapse;
