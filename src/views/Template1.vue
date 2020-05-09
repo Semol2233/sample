@@ -13,7 +13,7 @@
             </div>
 
             <table class="routssine-table">
-              <thead>
+              <thead class="hysdgugu">
                 <tr>
                   <th class="column1">শ্রেণী</th>
                   <th class="column2">বিষয়</th>
@@ -21,7 +21,7 @@
                 </tr>
               </thead>
 
-              <tbody>
+              <tbody class="hgdacudcs">
                 <tr v-for="(r, i) in routine" :key="i">
                   <td class="column1">
                     <input type="text" v-model="r.class" class="table-input" />
@@ -166,6 +166,10 @@ export default {
 .datssse{
     font-family: "Hind Siliguri", sans-serif;
 }
+
+.hysdgugu{
+  font-family: "Hind Siliguri", sans-serif;
+}
 .routine--template .routssine-table td {
   border: 1px solid #fff;
   color: #fff;
@@ -178,7 +182,7 @@ export default {
   margin-bottom: 404px;
 }
 
-.routssine-table{
+.hgdacudcs{
   font-family: 'kongshomjregular';
 }
 .ddate-input {
