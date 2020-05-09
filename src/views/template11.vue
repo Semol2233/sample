@@ -79,7 +79,7 @@ export default {
   components: {},
   data() {
     return {
-      routineDate: "৩ মে এর সময়সূচি ",
+      routineDate: "১০ মে এর সময়সূচি ",
       coronaBreak: "জাতীয় সঙ্গীত ও করোনা সচেতনতা (সকাল ১০.৪০-১০.৪৫)",
       routine: [
         {
@@ -199,7 +199,7 @@ export default {
 }
 .routine-tabsle {
   border: 2px solid #fff;
-  width: 753px;
+  width: 754px;
   margin-left: 79px;
   margin-top: 16px;
   border-collapse: collapse;
