@@ -193,7 +193,7 @@ export default {
 }
 .routine-tabsle {
   border: 2px solid #fff;
-  width: 691px;
+  width: 693px;
   margin-left: 97px;
   margin-top: 16px;
   border-collapse: collapse;
