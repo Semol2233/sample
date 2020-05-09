@@ -5,7 +5,7 @@
     </div>
 
     <div class="routine-container">
-      <div class="routine routine--template9" id="routine" ref="routine">
+      <div class="routine routine--template11" id="routine" ref="routine">
         <div class="date">
           <input type="text" class="date-input" v-model="routineDate" />
         </div>
@@ -16,8 +16,9 @@
               <th class="column1 ">শ্রেণী</th>
               <th class="column2">১ম পিরিয়ড</th>
               <th class="column3">২য় পিরিয়ড</th>
+              <th class="column4">৩য় পিরিয়ড</th>
             </tr>
-          </thead>
+          </thead> 
 
           <tbody>
             <tr>
@@ -40,6 +41,10 @@
               </td>
               <td class="column3">
                 <input type="text" v-model="r.subject2" class="table-input" />
+              </td>
+                      <td class="column4">
+                <input type="text" v-model="r.subjddect1" class="table-input" />
+                
               </td>
             </tr>
 
@@ -79,36 +84,41 @@ export default {
       routine: [
         {
           class: "৬ষ্ঠ",
-          subject1: "বাংলা",
-          time1: "(সকাল ১০.৪৫ - ১১.২৫)",
-          subject2: "ইংরেজি",
+          subject1: "গণিত",
+          subjddect1: "----------------",
+          time1: "(সকাল ১০.৪৫ - ১১.০৫)",
+          subject2: "----------------",
           time2: "(সকাল ১১.৪৫)"
         },
         {
           class: "৭ম",
-          subject1: "বাংলা",
-          time1: "(সকাল ১১.২৫ - দুপুর ১২.০৫)",
-          subject2: "ইংরেজি",
+          subject1: "বিজ্ঞান",
+          subjddect1: "----------------",
+          time1: "(সকাল ১১.০৫ - দুপুর ১১.২৫)",
+          subject2: "----------------",
           time2: "(সকাল ১১.৪৫)"
         },
         {
           class: "৮ম",
-          subject1: "বাংলা",
-          time1: "(দুপুর ১২.০৫ - ১২.৪৫)",
-          subject2: "গণিত",
+          subject1: "গণিত",
+          subjddect1: "ইংরেজি",
+          time1: "(দুপুর ১১.২৫ - ১২.০৫)",
+          subject2: "বাংলা",
           time2: "(দুপুর ১.০৫)"
         },
         {
           class: "৯ম",
-          subject1: "গণিত",
-          time1: "(দুপুর ১২.৪৫ - ০১.২৫)",
-          subject2: "ইংরেজি",
+          subject1: "ইংরেজি",
+          subjddect1: "----------------",
+          time1: "(দুপুর ১২.০৫ - ০১.০৫)",
+          subject2: "জীববিজ্ঞান",
           time2: "(দুপুর ১.৪৫)"
         },
         {
           class: "১০ম",
-          subject1: "ইংরেজি",
-          time1: "(দুপুর ১.২৫ - ২.১০)",
+          subject1: "বিজ্ঞান",
+          subjddect1: "বাংলাদেশ ও বিশ্বপরিচয়",
+          time1: "(দুপুর ০১.০৫ - ২.১০)",
           subject2: "রসায়ন",
           time2: "(দুপুর ২.২৫)"
         }
@@ -160,31 +170,37 @@ export default {
   text-align: center;
 }
 
-.routine--template9 .column1 {
+.routine--template11 .column1 {
   width: 232px;
 }
-.routine--template9 .column1 .table-input {
+.routine--template11 .column1 .table-input {
   max-width: 222px;
 }
 
-.routine--template9 .column2 {
+.routine--template11 .column2 {
   width: 232px;
 }
-.routine--template9 .column2 .table-input {
-  max-width: 222px;
+.routine--template11 .column2 .table-input {
+  max-width: 157px;
 }
 
-.routine--template9 .column3 {
+.routine--template11 .column3 {
   width: 232px;
 }
-.routine--template9 .column3 .table-input {
-  max-width: 222px;
+.routine--template11 .column3 .table-input {
+  max-width: 157px;
 }
 
+.routine--template11 .column4 {
+  width: 232px;
+}
+.routine--template11 .column4 .table-input {
+  max-width: 205px;
+}
 .routine-tabsle {
   border: 2px solid #fff;
-  width: 691px;
-  margin-left: 97px;
+  width: 753px;
+  margin-left: 79px;
   margin-top: 16px;
   border-collapse: collapse;
 }
@@ -208,7 +224,7 @@ export default {
   border: 1px solid #fff;
   color: #fff;
   font-size: 20px;
-  padding: 0px 0;
+  padding: 4px 0;
   text-align: center;
 }
 </style>

@@ -73,7 +73,31 @@ const routes = [
     path: "/ghorebose",
     name: "ghorebose",
     component: () => import("../views/ghorebose.vue")
-  }
+  },
+  {
+    path: "/teamplte8",
+    name: "teamplte8",
+    component: () => import("../views/teamplte8.vue")
+  },
+
+  {
+    path: "/ghoreboseshiki",
+    name: "ghoreboseshiki",
+    component: () => import("../views/ghoreboseshiki.vue")
+  },
+  {
+    path: "/madrasa",
+    name: "madrasa",
+    component: () => import("../views/madrasa.vue")
+  },
+  {
+    path: "/template11",
+    name: "template11",
+    component: () => import("../views/template11.vue")
+  },
+
+
+  
 ];
 
 const router = new VueRouter({

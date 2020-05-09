@@ -33,7 +33,7 @@
             tile
             max-width="600"
           >
-            <router-link to="/template1">
+            <router-link to="/madrasa">
               <v-img class="white--text align-end " src="/img/template1.png">
               </v-img>
             </router-link>
@@ -45,7 +45,7 @@
 
         <v-col cols="3" lg="4" class="ml-3">
           <v-card class=" mx-auto green accent-3" outlined tile max-width="600">
-            <router-link to="/template2">
+            <router-link to="/ghoreboseshiki">
             <v-img class="white--text align-end " src="/img/template2.png">
             </v-img>
             </router-link>
