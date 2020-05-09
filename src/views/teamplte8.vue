@@ -13,7 +13,7 @@
             </div>
 
             <table class="routssine-table">
-              <thead>
+              <thead class="hysdgugu">
                 <tr>
                   <th class="column1">শ্রেণী</th>
                   <th class="column2">বিষয়</th>
@@ -21,7 +21,7 @@
                 </tr>
               </thead>
 
-              <tbody>
+              <tbody class="hgdacudcs">
                 <tr v-for="(r, i) in routine" :key="i">
                   <td class="column1">
                     <input type="text" v-model="r.class" class="table-input" />
@@ -33,13 +33,14 @@
                       class="tasddble-input"
                     />
                   </td>
-                  <td class="column3">
-                    <input
+                
+                  <div class="column3">
+                      <input
                       type="text"
                       v-model="r.duration"
                       class="tasddble-input"
                     />
-                  </td>
+                  </div>
                 </tr>
 
                 <!-- <tr v-for="(r, i) in routine" :key="i">
@@ -64,8 +65,7 @@
           </div>
         </div>
 
-        <b-container>
-        </b-container>
+        <b-container> </b-container>
       </v-col>
 
       <v-col cols="4">
@@ -78,12 +78,10 @@
 
             <div class="text--primary">
               <li v-for="item in items" :key="item.datas">
-                   <h3>
-                      {{ item.datas }}
-                   </h3>
-               </li>
-
-          
+                <h3>
+                  {{ item.datas }}
+                </h3>
+              </li>
             </div>
           </v-card-text>
           <v-card-actions> </v-card-actions>
@@ -97,9 +95,7 @@
 import html2canvas from "html2canvas";
 
 export default {
-  components: {
-  
-  },
+  components: {},
   data() {
     return {
       routineDate: "৩ মে এর সময়সূচি",
@@ -107,17 +103,18 @@ export default {
         {
           class: "৭ম",
           subject: "আরবি ২য় পত্র",
-          duration: "বিকাল ৪.০০ - ৪.২০"
+          
         },
         {
           class: "৮ম",
           subject: "আরবি ২য় পত্র",
-          duration: "বিকাল ৪.২০ - ৪.৪০"
+          duration:'বিকাল ৩টা থেকে ৩.৫০ পর্যন্ত '
+          
         },
         {
           class: "৯ম",
           subject: "আরবি ২য় পত্র",
-          duration: "বিকাল ৪.৪০ - ৫.০০"
+          
         }
       ],
       items: [
@@ -137,7 +134,8 @@ export default {
           datas: " ১.২৫-২.১০ -- বাংলাদেশ ও বিশ্বপরিচয় + গণিত "
         },
         {
-          datas: " ১০.৪০-১০মাদ্রসা রুটিন ৬ থেকে ১০ শ্রেণী কারিগরি ঘরে বসে কারিগরি ক্রিয়াকলাপভিত্তিকআনন্দদায়ক শিখন"
+          datas:
+            " ১০.৪০-১০মাদ্রসা রুটিন ৬ থেকে ১০ শ্রেণী কারিগরি ঘরে বসে কারিগরি ক্রিয়াকলাপভিত্তিকআনন্দদায়ক শিখন"
         }
       ]
     };
@@ -163,14 +161,18 @@ export default {
 </script>
 
 <style>
-.datssse{
-    font-family: "Hind Siliguri", sans-serif;
+.datssse {
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+.hysdgugu {
+  font-family: "Hind Siliguri", sans-serif;
 }
 .routine--template .routssine-table td {
   border: 1px solid #fff;
   color: #fff;
   font-size: 23px;
-  padding: 29px 0;
+  padding: 30px 0;
   text-align: center;
 }
 
@@ -178,24 +180,22 @@ export default {
   margin-bottom: 404px;
 }
 
-.routssine-table{
-  font-family: 'kongshomjregular';
+.hgdacudcs {
+  font-family: "Hind Siliguri", sans-serif;
 }
 .ddate-input {
-    text-align: center;
-    width: 461px;
-    margin-top: 5px;
-    height: 68px;
+  text-align: center;
+  width: 461px;
+  margin-top: 5px;
+  height: 68px;
 }
 
-
-
 .routssine-table {
-    border: 2px solid #fff;
-    width: 688px;
-    margin-left: 108px;
-    margin-top: 17px;
-    border-collapse: collapse;
+  border: 2px solid #fff;
+  width: 689px;
+  margin-left: 108px;
+  margin-top: 17px;
+  border-collapse: collapse;
 }
 
 .routine--template2 .routssine-table {
@@ -212,7 +212,6 @@ export default {
   text-align: center;
   font-weight: bold;
 }
-
 
 .routssine-table td {
   border: 1px solid #fff;
@@ -234,35 +233,33 @@ export default {
   font-size: 43px;
 }
 
-
-
-  .column2 .tasddble-input {
-width: 282px;
-    height: 35px;
-        text-align: center;
+.column2 .tasddble-input {
+  width: 282px;
+  height: 35px;
+  text-align: center;
 }
-  .column3 .tasddble-input {
-width: 282px;
+.column3 .tasddble-input {
+    width: 282px;
     height: 35px;
-        text-align: center;
+    text-align: center;
+    color: white;
+    font-size: 23px;
+    margin-top: 27px;
 }
 
-
- .column1 {
+.column1 {
   min-width: 99px;
-} 
+}
 
- .column1 .table-input {
+.column1 .table-input {
   max-width: 104px;
 }
-
 
 .column2 .table-input {
   max-width: 288px;
 }
 
-
 .column3 .table-input {
   max-width: 240px;
-} 
+}
 </style>

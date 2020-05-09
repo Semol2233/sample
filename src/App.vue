@@ -69,7 +69,7 @@ export default {
     loginNow() {
       console.log(this.password);
       if (md5(this.password) !== "cfba4847be151104d4fcd35c5af918df") {
-        this.snackbar = true;
+        this.snackbar = false;
       } else {
         this.loggedIn = true;
         this.snackbar = false;
