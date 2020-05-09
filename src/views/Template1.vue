@@ -174,7 +174,7 @@ export default {
   border: 1px solid #fff;
   color: #fff;
   font-size: 23px;
-  padding: 29px 0;
+  padding: 30px 0;
   text-align: center;
 }
 
@@ -183,7 +183,7 @@ export default {
 }
 
 .hgdacudcs{
-  font-family: 'kongshomjregular';
+font-family: "Hind Siliguri", sans-serif;
 }
 .ddate-input {
     text-align: center;
