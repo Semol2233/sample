@@ -177,7 +177,7 @@ margin-top: 14px;
   border: 1px solid #fff;
   color: #fff;
   font-size: 23px;
-  padding: 13px 0; 
+  padding: 15px 0; 
   text-align: center;
 }
 
@@ -241,12 +241,12 @@ border-collapse: collapse;
 
 
 .column2 .table-input {
-    max-width: 288px;
     height: 35px;
+    width: 196px;
 }
 
 
 .column3 .table-input {
-  max-width: 240px;
+    width: 163px;
 } 
 </style>
