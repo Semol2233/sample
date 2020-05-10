@@ -100,7 +100,7 @@
               max-width="600"
             >
              <router-link to="/ramadan">
-              <v-img class="white--text align-end " src="/img/1-01-01.jpg">
+              <v-img class="white--text align-end " src="/img/1-01-01.png">
               </v-img>
                </router-link>
                <v-card-title class="yellow--text text--lighten-1 dfcdacasdcs"
