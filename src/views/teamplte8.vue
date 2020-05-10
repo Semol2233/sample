@@ -149,9 +149,9 @@ export default {
         var a = document.createElement("a");
         // toDataURL defaults to png, so we need to request a jpeg, then convert for file download.
         a.href = canvas
-          .toDataURL("image/jpeg")
-          .replace("image/jpeg", "image/octet-stream");
-        a.download = "template1.jpg";
+          .toDataURL("image/png")
+          .replace("image/png", "image/octet-stream");
+        a.download = "template1.png";
         a.click();
         this.$refs.routine.style.border = "1px solid #000";
       });

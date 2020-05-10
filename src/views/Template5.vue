@@ -14,7 +14,7 @@
         </div>
 
         <table class="routsssine-table">
-          <thead>
+          <thead class="thead">
             <tr>
               <th class="column1">শ্রেণী</th>
               <th class="column2">বিষয়</th>
@@ -24,7 +24,7 @@
             </tr>
           </thead>
 
-          <tbody>
+          <tbody  class="hgdacudcs">
             <tr class="prak-row">
               <!-- <td class="column1">
                 <input
@@ -152,9 +152,9 @@ export default {
         var a = document.createElement("a");
         // toDataURL defaults to png, so we need to request a jpeg, then convert for file download.
         a.href = canvas
-          .toDataURL("image/jpeg")
-          .replace("image/jpeg", "image/octet-stream");
-        a.download = "template1.jpg";
+          .toDataURL("image/png")
+          .replace("image/png", "image/octet-stream");
+        a.download = "template1.png";
         a.click();
         this.$refs.routine.style.border = "1px solid #000";
       });
@@ -177,7 +177,7 @@ margin-top: 14px;
   border: 1px solid #fff;
   color: #fff;
   font-size: 23px;
-  padding: 15px 0;
+  padding: 13px 0; 
   text-align: center;
 }
 
@@ -188,8 +188,14 @@ margin-top: 14px;
 .prak-row input {
   font-size: 21px;
 }
+.hgdacudcs {
+  font-family: 'kongshomjregular';
+}
+.datse{
+ 
+    font-family: "Hind Siliguri", sans-serif;
 
-
+}
 .routsssine-table {
 border: 2px solid #fff;
 width: 684px;
@@ -220,7 +226,10 @@ border-collapse: collapse;
   padding: 10px 0;
   text-align: center;
 }
+.thead{
+   font-family: "Hind Siliguri", sans-serif;
 
+}
 
  .column1 {
   min-width: 99px;
@@ -232,7 +241,8 @@ border-collapse: collapse;
 
 
 .column2 .table-input {
-  max-width: 288px;
+    max-width: 288px;
+    height: 35px;
 }
 
 
