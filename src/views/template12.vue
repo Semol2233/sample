@@ -188,14 +188,14 @@ export default {
   width: 232px;
 }
 .routine--template11 .column3 .table-input {
-  max-width: 176px;
+  max-width: 187px;
 }
 
 .routine--template11 .column4 {
   width: 232px;
 }
 .routine--template11 .column4 .table-input {
-  max-width: 172px;
+  max-width: 168px;
 }
 .routine-tabsle {
   border: 2px solid #fff;
