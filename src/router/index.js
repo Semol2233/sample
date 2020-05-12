@@ -95,9 +95,13 @@ const routes = [
     name: "template11",
     component: () => import("../views/template11.vue")
   },
+  {
+    path: "/template12",
+    name: "template12",
+    component: () => import("../views/template12.vue")
+  },
 
 
-  
 ];
 
 const router = new VueRouter({

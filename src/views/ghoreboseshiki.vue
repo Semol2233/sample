@@ -31,7 +31,7 @@
         </v-col>
       </v-row>
       <v-row class="mb-6 mt-7" justify="center" no-gutters>
-        <v-col cols="3" lg="4" class="ml-3">
+        <v-col cols="4" lg="4" class="ml-3">
           <v-card class=" mx-auto grey darken-4" outlined tile max-width="600">
             <router-link to="/Template2">
               <v-img
@@ -46,7 +46,7 @@
           </v-card>
         </v-col>
 
-        <v-col cols="3" lg="4" class="ml-3">
+        <v-col cols="4" lg="4" class="ml-3">
           <v-card class=" mx-auto green accent-3" outlined tile max-width="600">
             <router-link to="/template11">
               <v-img class="white--text align-end " src="/img/template2.png">
@@ -57,6 +57,36 @@
             >
           </v-card>
         </v-col>
+
+         <v-col cols="4" lg="4" class="ml-3 mt-4">
+          <v-card class=" mx-auto grey darken-4" outlined tile max-width="600">
+            <router-link to="/Template12">
+              <v-img
+                class="white--text align-end"
+                src="/img/template2.png"
+              ></v-img>
+            </router-link>
+
+            <v-card-title class="white--text text--lighten-1 dfcdacasdcs"
+              ><strong> ঘরে বসে শিখি</strong></v-card-title
+            >
+          </v-card>
+        </v-col>
+
+        <v-col cols="4" lg="4" class="ml-3 mt-4">
+          <v-card class=" mx-auto green accent-3" outlined tile max-width="600">
+            <router-link to="/template11">
+              <v-img class="white--text align-end " src="/img/temdplate2.png">
+              </v-img>
+            </router-link>
+           
+            
+          </v-card>
+        </v-col>
+
+       
+
+
       </v-row>
 
 
