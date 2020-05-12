@@ -168,7 +168,7 @@ export default {
   width: 232px;
 }
 .routine--template4 .column2 .tasble-input {
-  max-width: 222px;
+  max-width: 269px;
 }
 
 .routine--template4 .column3 {
@@ -238,11 +238,11 @@ hr.blank {
   text-align: center;
 }
 .column3 .tasble-input {
-  max-width: 217px;
+  max-width: 209px;
 }
 
 .column1 .tasble-input {
-  max-width: 98px;
+  max-width: 70px;
 }
 
 .dasste-input {
