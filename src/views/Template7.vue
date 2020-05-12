@@ -230,7 +230,7 @@ hr.blank {
 }
 
 .column2 .tasble-input {
-  width: 255px;
+  width: 276px;
 }
 
 .tasble-input {
