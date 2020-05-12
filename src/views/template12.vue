@@ -181,7 +181,7 @@ export default {
   width: 232px;
 }
 .routine--template11 .column2 .table-input {
-  max-width: 191px;
+  max-width: 185px;
 }
 
 .routine--template11 .column3 {
