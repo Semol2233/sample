@@ -248,6 +248,6 @@ hr.blank {
 .dasste-input {
     max-width: 100%;
     text-align: center;
-    margin-top: 9px;
+    margin-top: 4px;
 }
 </style>
