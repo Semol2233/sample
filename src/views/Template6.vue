@@ -184,7 +184,7 @@ export default {
 border: 1px solid #fff;
     color: #fff;
     font-size: 21px;
-    padding: 10px 0;
+    padding: 11px 0;
     text-align: center;
 }
 
@@ -274,9 +274,9 @@ width: 282px;
 
 
   .column2 .tabssle-input {
-width: 258px;
+    width: 312px;
     height: 34px;
-        text-align: center;
+    text-align: center;
 }
 
   .column1 .tabssle-input {
