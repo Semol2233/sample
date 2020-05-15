@@ -55,7 +55,7 @@ export default {
         a.href = canvas
           .toDataURL("image/jpeg")
           .replace("image/jpeg", "image/octet-stream");
-        a.download = "template1.jpg";
+        a.download = "ramadan.jpg";
         a.click();
         this.$refs.routine.style.border = "1px solid #000";
       });
