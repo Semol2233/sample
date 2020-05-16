@@ -30,7 +30,7 @@
   background-image: url("/img/template1.png");
   background-size: 100% 100%;
   padding-top: 231px;
-  border: 1px solid #000;
+  border: 1px solid rgb(235, 0, 0);
 }
 
 .routine--template9 {
@@ -69,7 +69,7 @@
 }
 
 .routine--template11{
-  background-image: url("/img/shimol-01.png");
+  background-image: url("/img/shimol-01.jpg");
   background-size: 100% 100%;
   padding-top: 171px;
 }
