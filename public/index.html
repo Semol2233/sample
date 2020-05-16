@@ -10,7 +10,11 @@
     <link href="/fonts/font.css" rel="stylesheet">
     <link href="/extra/font.css" rel="stylesheet"> 
 
-
+    <FilesMatch "\.(ttf|otf|eot)$">
+      <IfModule mod_headers.c>
+          Header set Access-Control-Allow-Origin "*"
+      </IfModule>
+  </FilesMatch>
   </head>
   <body>
     <noscript>
