@@ -1,7 +1,6 @@
 <template>
   <div class="template-page">
-   <v-row>
-     <v-col cols="8"> 
+
  <div class="mt-4 mb-2 ml-5 download-container">
       <v-btn color="primary" @click="downloadNow">Download</v-btn>
     </div>
@@ -81,21 +80,19 @@
         </table>
       </div>
     </div>
-     </v-col>
-     <v-col cols="4">
-       <googledrive />
-     </v-col>
-   </v-row>
+
+
+
   </div>
 </template>
 
 <script>
 import html2canvas from "html2canvas";
-import googledrive from "@/components/googledrive";
+
 
 export default {
        components: {
-       googledrive
+   
     },
   data() {
     return {

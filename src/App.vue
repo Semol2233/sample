@@ -1,17 +1,7 @@
 <template>
   <v-app id="inspire">
     <div class="login-container" v-if="!loggedIn">
-      <div class="login-form">
-        <v-text-field
-          v-model="password"
-          label="Enter Password"
-          type="password"
-          @keydown.enter="loginNow"
-        ></v-text-field>
-        <v-btn color="primary" @click="loginNow" class="login-button"
-          >Login</v-btn
-        >
-      </div>
+
     </div>
 
     <template v-else>
@@ -53,7 +43,7 @@
 </template>
 
 <script>
-import md5 from "md5";
+
 export default {
   props: {
     source: String
@@ -65,17 +55,7 @@ export default {
     loggedIn: true,
     snackbar: false
   }),
-  methods: {
-    loginNow() {
-      console.log(this.password);
-      if (md5(this.password) !== "cfba4847be151104d4fcd35c5af918df") {
-        this.snackbar = false;
-      } else {
-        this.loggedIn = true;
-        this.snackbar = false;
-      }
-    }
-  }
+
 };
 </script>
 

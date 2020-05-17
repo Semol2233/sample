@@ -101,7 +101,13 @@ const routes = [
     component: () => import("../views/template12.vue")
   },
 
+  {
+    path: "/Template13",
+    name: "Template13",
+    component: () => import("../views/Template13.vue")
+  },
 
+ 
 ];
 
 const router = new VueRouter({

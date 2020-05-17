@@ -1,18 +1,18 @@
 <template>
   <div class="template-page">
 
-<div class="mt-4 mb-2 ml-5 download-container">
+ <div class="mt-4 mb-2 ml-5 download-container">
       <v-btn color="primary" @click="downloadNow">Download</v-btn>
       <h1>Extra Data 3 col</h1>
     </div>
 
     <div class="routine-container">
       <div class="routine routine--template5" id="routine" ref="routine">
-        <div class="datse">
+        <div class="datssse">
           <input type="text" class="date-input" v-model="routineDate" />
         </div>
 
-        <table class="routsssine-table">
+        <table class="routssine-table">
           <thead class="thead">
             <tr>
               <th class="column1">শ্রেণী</th>
@@ -23,45 +23,45 @@
             </tr>
           </thead>
 
-          <tbody  class="hgdacudcs">
+          <tbody class="tbody">
             <tr class="prak-row">
-              <!-- <td class="column1">
+              <td class="column1">
                 <input
                   type="text"
                   v-model="prakPrathomik.class"
-                  class="table-input"
+                  class="tabssle-input"
                 />
-              </td> -->
-              <!-- <td class="column2">
+              </td>
+              <td class="column2">
                 <input
                   type="text"
                   v-model="prakPrathomik.subject1"
-                  class="table-input"
+                  class="tabssle-input"
                 />
                 <input
                   type="text"
                   v-model="prakPrathomik.subject2"
-                  class="table-input"
+                  class="tabssle-input"
                   v-if="prakPrathomik.subject2"
                 />
-              </td> -->
-              <!-- <td class="column3">
+              </td>
+              <td class="column3">
                 <input
                   type="text"
                   v-model="prakPrathomik.duration"
-                  class="table-input"
+                  class="tabssle-input"
                 />
-              </td> -->
+              </td>
             </tr>
             <tr v-for="(r, i) in routine" :key="i">
               <td class="column1">
-                <input type="text" v-model="r.class" class="table-input" />
+                <input type="text" v-model="r.class" class="tabssle-input" />
               </td>
               <td class="column2">
-                <input type="text" v-model="r.subject" class="table-input" />
+                <input type="text" v-model="r.subject" class="tabssle-input" />
               </td>
               <td class="column3">
-                <input type="text" v-model="r.duration" class="table-input" />
+                <input type="text" v-model="r.duration" class="tabssle-input" />
               </td>
             </tr>
 
@@ -87,6 +87,8 @@
       </div>
     </div>
 
+
+
   </div>
 </template>
 
@@ -95,42 +97,45 @@ import html2canvas from "html2canvas";
 
 
 export default {
+       components: {
+
+    },
   data() {
     return {
       routineDate: "৩ মে এর সময়সূচি ",
       coronaBreak: "জাতীয় সঙ্গীত ও করোনা সচেতনতা (সকাল সকাল ১০.৪০-১০.৪৫)",
       prakPrathomik: {
         class: "প্রাক-প্রাথমিক",
-        subject1: "ক্রিয়াকালাপ ভিডিও",
-        subject2: " আনন্দদায়ক শিখন (পুনঃপ্রচার)",
-        duration: "০৯.০০-০৯.২০"
+        subject1: "ক্রিয়াকলাপভিত্তিক ",
+
+        duration: "৯:৪০-১০:০০"
       },
       routine: [
-        // {
-        //   class: "১ম",
-        //   subject: "বাংলা (পুনঃপ্রচার)",
-        //   duration: "০৯.২০-০৯.৪০"
-        // },
         {
-          class: "২য়",
-          subject: "ইংরেজি (পুনঃপ্রচার)",
-          duration: "০৯.৪০-১০.০০"
+          class: "১ম",
+          subject: "বাংলা (পুনঃপ্রচার)",
+          duration: "১০:০০-১০:২০"
         },
         // {
-        //   class: "৩য়",
-        //   subject: "গণিত",
-        //   duration: "১০.০০-১০.২০"
+        //   class: "২য়",
+        //   subject: "ইংরেজি (পুনঃপ্রচার)",
+        //   duration: "০৯.৪০-১০.০০"
         // },
         {
-          class: "৪র্থ",
-          subject: "বিজ্ঞান",
-          duration: "১০.২০-১০.৪০"
-        },
-        {
-          class: "৫ম",
-          subject: "ইংরেজি",
-          duration: "১০.৪০-১১.০০"
+          class: "৩য়",
+          subject: "গণিত",
+          duration: "১০:২০-১০:৪০"
         }
+        // {
+        //   class: "৪র্থ",
+        //   subject: "বিজ্ঞান",
+        //   duration: "১০.২০-১০.৪০"
+        // },
+        // {
+        //   class: "৫ম",
+        //   subject: "ইংরেজি",
+        //   duration: "১০.৪০-১১.০০"
+        // }
       ]
     };
   },
@@ -155,23 +160,34 @@ export default {
 </script>
 
 <style>
-.routine--template5 .routsssine-table {
-margin-top: 14px;
-}
 
-.routine--template5 .routsssine-table th {
-  padding: 8px 0;
+.datssse{
+    font-family: "Hind Siliguri", sans-serif;
+}
+.routine--template5 .routssine-table {
+  margin-top: 13px;
+}
+.thead{
+   font-family: "Hind Siliguri", sans-serif;
+
+}
+.routine--template5 .routssine-table th {
+  padding: 6px 0;
   font-size: 23px;
 }
 
-.routine--template5 .routsssine-table td {
-  border: 1px solid #fff;
-  color: #fff;
-  font-size: 23px;
-  padding: 15px 0; 
+.routine--template5 .routssine-table td {
+border: 1px solid #fff;
+    color: #fff;
+    font-size: 21px;
+    padding: 16px 0;
+    text-align: center;
+}
+
+.routssine-input {
+  max-width: 100%;
   text-align: center;
 }
-
 .font-normal {
   font-weight: normal;
 }
@@ -179,28 +195,62 @@ margin-top: 14px;
 .prak-row input {
   font-size: 21px;
 }
-.hgdacudcs {
+.tbody{
   font-family: 'kongshomjregular';
 }
-.datse{
- 
-    font-family: "Hind Siliguri", sans-serif;
 
-}
-.routsssine-table {
-border: 2px solid #fff;
-width: 684px;
-margin-left: 110px;
-margin-top: 25px;
-border-collapse: collapse;
+.datssse {
+  margin-left: 231px;
+  width: 441px;
+  height: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 43px;
+  margin-top: 104px;
 }
 
-.routine--template2 .routsssine-table {
+
+
+
+
+
+
+.routssine-table{
+  font-family: 'kongshomjregular';
+}
+
+
+
+
+  .column2 .tasddble-input {
+width: 282px;
+    height: 35px;
+        text-align: center;
+}
+  .column3 .tasddble-input {
+width: 282px;
+    height: 35px;
+        text-align: center;
+}
+
+
+
+.routssine-table {
+    border: 2px solid #fff;
+    width: 687px;
+    margin-left: 109px;
+    border-collapse: collapse;
+}
+
+.routine--template2 .routssine-table {
   margin-left: 104px;
   margin-top: 22px;
 }
 
-.routsssine-table th {
+.routssine-table th {
   border: 1px solid #fff;
   border-collapse: collapse;
   color: #fff;
@@ -210,34 +260,29 @@ border-collapse: collapse;
   font-weight: bold;
 }
 
-.routsssine-table td {
+.routssine-table td {
   border: 1px solid #fff;
   color: #fff;
   font-size: 25px;
   padding: 10px 0;
   text-align: center;
 }
-.thead{
-   font-family: "Hind Siliguri", sans-serif;
 
+
+  .column2 .tabssle-input {
+    width: 312px;
+    height: 34px;
+    text-align: center;
 }
 
- .column1 {
-  min-width: 99px;
-} 
-
- .column1 .table-input {
-  max-width: 104px;
+  .column1 .tabssle-input {
+    width: 148px;
+    height: 32px;
+    text-align: center;
 }
-
-
-.column2 .table-input {
-    height: 35px;
-    width: 196px;
+.column3 .tabssle-input {
+width: 222px;
+    height: 32px;
+    text-align: center;
 }
-
-
-.column3 .table-input {
-    width: 163px;
-} 
 </style>

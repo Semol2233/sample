@@ -67,7 +67,7 @@ export default {
 <style>
 
 
-.template-page{
+.routine--template10{
    font-family: "Hind Siliguri", sans-serif;
 
 }
