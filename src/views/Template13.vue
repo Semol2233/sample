@@ -165,7 +165,7 @@ export default {
     font-family: "Hind Siliguri", sans-serif;
 }
 .routine--template5 .routssine-table {
-  margin-top: 13px;
+  margin-top: 15px;
 }
 .thead{
    font-family: "Hind Siliguri", sans-serif;
@@ -180,7 +180,7 @@ export default {
 border: 1px solid #fff;
     color: #fff;
     font-size: 21px;
-    padding: 16px 0;
+    padding: 19px 0;
     text-align: center;
 }
 

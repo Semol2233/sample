@@ -156,7 +156,7 @@ export default {
 
 <style>
 .routine--template5 .routsssine-table {
-margin-top: 14px;
+margin-top: 16px;
 }
 
 .routine--template5 .routsssine-table th {
@@ -168,7 +168,7 @@ margin-top: 14px;
   border: 1px solid #fff;
   color: #fff;
   font-size: 23px;
-  padding: 15px 0; 
+  padding: 17px 0; 
   text-align: center;
 }
 

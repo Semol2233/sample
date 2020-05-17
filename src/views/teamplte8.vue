@@ -1,7 +1,6 @@
 <template>
   <div class="template-page">
-    <v-row>
-      <v-col cols="8">
+  
         <div class="mt-4 mb-2 ml-5 download-container">
           <v-btn color="primary" @click="downloadNow">Download</v-btn>
         </div>
@@ -65,29 +64,7 @@
           </div>
         </div>
 
-        <b-container> </b-container>
-      </v-col>
 
-      <v-col cols="4">
-        <v-card class="mx-auto" max-width="344">
-          <v-card-text>
-            <div></div>
-            <p class="display-1 text--primary">
-              Help Text Bangla
-            </p>
-
-            <div class="text--primary">
-              <li v-for="item in items" :key="item.datas">
-                <h3>
-                  {{ item.datas }}
-                </h3>
-              </li>
-            </div>
-          </v-card-text>
-          <v-card-actions> </v-card-actions>
-        </v-card>
-      </v-col>
-    </v-row>
   </div>
 </template>
 
