@@ -168,7 +168,7 @@ margin-top: 16px;
   border: 1px solid #fff;
   color: #fff;
   font-size: 23px;
-  padding: 17px 0; 
+  padding: 19px 0; 
   text-align: center;
 }
 
