@@ -79,7 +79,7 @@ export default {
   components: {},
   data() {
     return {
-      routineDate: "১০ মে এর সময়সূচি ",
+      routineDate: "৮ জুন এর সময়সূচি ",
       coronaBreak: "জাতীয় সঙ্গীত ও করোনা সচেতনতা (সকাল ১০.৪০-১০.৪৫)",
       routine: [
         {
