@@ -75,8 +75,8 @@
 
                         <v-col cols="3" lg="4" class="ml-3 mt-3">
           <v-card class=" mx-auto green accent-3" outlined tile max-width="600">
-            <router-link to="/template6">
-              <v-img class="white--text align-end " src="">
+            <router-link to="/template14">
+              <v-img class="white--text align-end " src="img/ef.png">
               </v-img>
             </router-link>
             <v-card-title class="white--text text--lighten-1 dfcdacasdcs"
@@ -84,13 +84,15 @@
             >
           </v-card>
         </v-col>
+
+        
       </v-row>
 
 
     </v-container>
   </div>
 </template>
-
+Template14
 <script>
 export default {
   data() {

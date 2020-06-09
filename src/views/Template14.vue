@@ -7,7 +7,7 @@
     </div>
 
     <div class="routine-container">
-      <div class="routine routine--template5" id="routine" ref="routine">
+      <div class="routine routine--template14" id="routine" ref="routine">
         <div class="datssse">
           <input type="text" class="date-input" v-model="routineDate" />
         </div>
@@ -32,8 +32,6 @@
                   class="tabssle-input"
                 />
               </td>
-
-              
               <td class="column2">
                 <input
                   type="text"
@@ -55,8 +53,6 @@
                 />
               </td>
             </tr>
-
-
             <tr v-for="(r, i) in routine" :key="i">
               <td class="column1">
                 <input type="text" v-model="r.class" class="tabssle-input" />
@@ -67,44 +63,20 @@
               <td class="column3">
                 <input type="text" v-model="r.duration" class="tabssle-input" />
               </td>
-
-              
-
               
             </tr>
 
-
-
-                        <tr class="prak-row">
+                        <tr v-for="(r, i) in routine" :key="i">
               <td class="column1">
-                <input
-                  type="text"
-                  v-model="prakPrathomik.class"
-                  class="tabssle-input"
-                />
+                <input type="text" v-model="r.class" class="tabssle-input" />
               </td>
-
-              
-              <td class="column4">
-                <input
-                  type="text"
-                  v-model="prakPrathomik.subject1"
-                  class="tabssle-input"
-                />
-                <input
-                  type="text"
-                  v-model="prakPrathomik.subject2"
-                  class="tabssle-input"
-                  v-if="prakPrathomik.subject2"
-                />
+              <td class="column2">
+                <input type="text" v-model="r.subject" class="tabssle-input" />
               </td>
               <td class="column3">
-                <input
-                  type="text"
-                  v-model="prakPrathomik.duration"
-                  class="tabssle-input"
-                />
+                <input type="text" v-model="r.duration" class="tabssle-input" />
               </td>
+              
             </tr>
 
             <!-- <tr v-for="(r, i) in routine" :key="i">
@@ -129,8 +101,6 @@
       </div>
     </div>
 
-
-
   </div>
 </template>
 
@@ -149,7 +119,7 @@ export default {
       prakPrathomik: {
         class: "প্রাক-প্রাথমিক",
         subject1: "ক্রিয়াকলাপভিত্তিক ",
-
+        subject2: "আনন্দদায়ক শিখন",
         duration: "৯:৪০-১০:০০"
       },
       routine: [
@@ -219,10 +189,10 @@ export default {
 }
 
 .routine--template5 .routssine-table td {
-    border: 1px solid #fff;
+border: 1px solid #fff;
     color: #fff;
     font-size: 21px;
-    padding: 9px 0;
+    padding: 15px 0;
     text-align: center;
 }
 
@@ -238,7 +208,7 @@ export default {
   font-size: 21px;
 }
 .tbody{
-  font-family: 'kongshomjregular';
+   font-family: "Hind Siliguri", sans-serif;
 }
 
 .datssse {
@@ -251,7 +221,7 @@ export default {
   color: #fff;
   font-weight: bold;
   font-size: 43px;
-  margin-top: 104px;
+  margin-top: 37px;
 }
 
 
@@ -261,7 +231,7 @@ export default {
 
 
 .routssine-table{
-  font-family: 'kongshomjregular';
+   font-family: "Hind Siliguri", sans-serif;
 }
 
 
@@ -285,6 +255,7 @@ width: 282px;
     width: 687px;
     margin-left: 109px;
     border-collapse: collapse;
+    margin-top: 16px;
 }
 
 .routine--template2 .routssine-table {
@@ -305,9 +276,9 @@ width: 282px;
 .routssine-table td {
   border: 1px solid #fff;
   color: #fff;
-  font-size: 25px;
-  padding: 10px 0;
-  text-align: center;
+font-size: 23px;
+    padding: 9px 0;
+  text-align: center; 
 }
 
 
@@ -324,12 +295,6 @@ width: 282px;
 }
 .column3 .tabssle-input {
 width: 222px;
-    height: 32px;
-    text-align: center;
-}
-
-  .column4 .tabssle-input {
-    width: 148px;
     height: 32px;
     text-align: center;
 }
