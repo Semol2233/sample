@@ -64,47 +64,8 @@
               </td>
             </tr>
 
-            <tr v-for="(r, i) in routine" :key="i">
-              <td class="column1">
-                <input type="text" v-model="r.class" class="tabssle-input" />
-              </td>
-              <td class="column2">
-                <input type="text" v-model="r.subject" class="tabssle-input" />
-              </td>
-              <td class="column3">
-                <input type="text" v-model="r.duration" class="tabssle-input" />
-              </td>
-            </tr>
 
-            <tr v-for="(r, i) in routine" :key="i">
-              <td class="column1">
-                <input type="text" v-model="r.class" class="tabssle-input" />
-              </td>
-              <td class="column2">
-                <input type="text" v-model="r.subject" class="tabssle-input" />
-              </td>
-              <td class="column3">
-                <input type="text" v-model="r.duration" class="tabssle-input" />
-              </td>
-            </tr>
-
-            <!-- <tr v-for="(r, i) in routine" :key="i">
-              <td>
-                <div contenteditable="true" :value="r.class">
-                  {{ r.class }}
-                </div>
-              </td>
-              <td>
-                <div contenteditable="true" :value="r.subject">
-                  {{ r.subject }}
-                </div>
-              </td>
-              <td>
-                <div contenteditable="true" :value="r.duration">
-                  {{ r.duration }}
-                </div>
-              </td>
-            </tr> -->
+            
           </tbody>
         </table>
       </div>
@@ -139,6 +100,26 @@ export default {
         //   duration: "০৯.৪০-১০.০০"
         // },
         {
+          class: "৩য়",
+          subject: "গণিত",
+          duration: "১০:২০-১০:৪০"
+        },
+                {
+          class: "৪য়",
+          subject: "গণিত",
+          duration: "১০:২০-১০:৪০"
+        },
+                {
+          class: "৩য়",
+          subject: "গণিত",
+          duration: "১০:২০-১০:৪০"
+        },
+                {
+          class: "৩য়",
+          subject: "গণিত",
+          duration: "১০:২০-১০:৪০"
+        },
+                {
           class: "৩য়",
           subject: "গণিত",
           duration: "১০:২০-১০:৪০"
