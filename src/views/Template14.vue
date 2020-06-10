@@ -200,7 +200,7 @@ export default {
   color: #fff;
   font-weight: bold;
   font-size: 43px;
-  margin-top: 37px;
+  margin-top: 41px;
 }
 
 .routssine-table {
@@ -223,7 +223,7 @@ export default {
   width: 687px;
   margin-left: 109px;
   border-collapse: collapse;
-  margin-top: 17px;
+  margin-top: 13px;
 }
 
 .routine--template2 .routssine-table {
