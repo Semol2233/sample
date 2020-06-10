@@ -1,7 +1,6 @@
 <template>
   <div class="template-page">
-
- <div class="mt-4 mb-2 ml-5 download-container">
+    <div class="mt-4 mb-2 ml-5 download-container">
       <v-btn color="primary" @click="downloadNow">Download</v-btn>
       <h1>Extra Data 3 col</h1>
     </div>
@@ -63,10 +62,9 @@
               <td class="column3">
                 <input type="text" v-model="r.duration" class="tabssle-input" />
               </td>
-              
             </tr>
 
-                        <tr v-for="(r, i) in routine" :key="i">
+            <tr v-for="(r, i) in routine" :key="i">
               <td class="column1">
                 <input type="text" v-model="r.class" class="tabssle-input" />
               </td>
@@ -76,7 +74,18 @@
               <td class="column3">
                 <input type="text" v-model="r.duration" class="tabssle-input" />
               </td>
-              
+            </tr>
+
+            <tr v-for="(r, i) in routine" :key="i">
+              <td class="column1">
+                <input type="text" v-model="r.class" class="tabssle-input" />
+              </td>
+              <td class="column2">
+                <input type="text" v-model="r.subject" class="tabssle-input" />
+              </td>
+              <td class="column3">
+                <input type="text" v-model="r.duration" class="tabssle-input" />
+              </td>
             </tr>
 
             <!-- <tr v-for="(r, i) in routine" :key="i">
@@ -100,18 +109,14 @@
         </table>
       </div>
     </div>
-
   </div>
 </template>
 
 <script>
 import html2canvas from "html2canvas";
 
-
 export default {
-       components: {
-
-    },
+  components: {},
   data() {
     return {
       routineDate: "৩ মে এর সময়সূচি ",
@@ -172,16 +177,14 @@ export default {
 </script>
 
 <style>
-
-.datssse{
-    font-family: "Hind Siliguri", sans-serif;
+.datssse {
+  font-family: "Hind Siliguri", sans-serif;
 }
 .routine--template5 .routssine-table {
   margin-top: 15px;
 }
-.thead{
-   font-family: "Hind Siliguri", sans-serif;
-
+.thead {
+  font-family: "Hind Siliguri", sans-serif;
 }
 .routine--template5 .routssine-table th {
   padding: 6px 0;
@@ -189,11 +192,11 @@ export default {
 }
 
 .routine--template5 .routssine-table td {
-border: 1px solid #fff;
-    color: #fff;
-    font-size: 21px;
-    padding: 15px 0;
-    text-align: center;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 21px;
+  padding: 15px 0;
+  text-align: center;
 }
 
 .routssine-input {
@@ -207,8 +210,8 @@ border: 1px solid #fff;
 .prak-row input {
   font-size: 21px;
 }
-.tbody{
-   font-family: "Hind Siliguri", sans-serif;
+.tbody {
+  font-family: "Hind Siliguri", sans-serif;
 }
 
 .datssse {
@@ -224,38 +227,27 @@ border: 1px solid #fff;
   margin-top: 37px;
 }
 
-
-
-
-
-
-
-.routssine-table{
-   font-family: "Hind Siliguri", sans-serif;
+.routssine-table {
+  font-family: "Hind Siliguri", sans-serif;
 }
 
-
-
-
-  .column2 .tasddble-input {
-width: 282px;
-    height: 35px;
-        text-align: center;
+.column2 .tasddble-input {
+  width: 282px;
+  height: 35px;
+  text-align: center;
 }
-  .column3 .tasddble-input {
-width: 282px;
-    height: 35px;
-        text-align: center;
+.column3 .tasddble-input {
+  width: 282px;
+  height: 35px;
+  text-align: center;
 }
-
-
 
 .routssine-table {
-    border: 2px solid #fff;
-    width: 687px;
-    margin-left: 109px;
-    border-collapse: collapse;
-    margin-top: 16px;
+  border: 2px solid #fff;
+  width: 687px;
+  margin-left: 109px;
+  border-collapse: collapse;
+  margin-top: 19px;
 }
 
 .routine--template2 .routssine-table {
@@ -276,26 +268,25 @@ width: 282px;
 .routssine-table td {
   border: 1px solid #fff;
   color: #fff;
-font-size: 23px;
-    padding: 9px 0;
-  text-align: center; 
+  font-size: 23px;
+  padding: 5px 0;
+  text-align: center;
 }
 
-
-  .column2 .tabssle-input {
-    width: 312px;
-    height: 34px;
-    text-align: center;
+.column2 .tabssle-input {
+  width: 312px;
+  height: 34px;
+  text-align: center;
 }
 
-  .column1 .tabssle-input {
-    width: 148px;
-    height: 32px;
-    text-align: center;
+.column1 .tabssle-input {
+  width: 148px;
+  height: 32px;
+  text-align: center;
 }
 .column3 .tabssle-input {
-width: 222px;
-    height: 32px;
-    text-align: center;
+  width: 222px;
+  height: 32px;
+  text-align: center;
 }
 </style>
