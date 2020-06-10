@@ -56,7 +56,7 @@
               ><strong>ঘরে বসে শিখি</strong></v-card-title
             >
           </v-card>
-        </v-col>
+        </v-col> 
 
          <v-col cols="4" lg="4" class="ml-3 mt-4">
           <v-card class=" mx-auto grey darken-4" outlined tile max-width="600">
@@ -72,15 +72,18 @@
             >
           </v-card>
         </v-col>
-
-        <v-col cols="4" lg="4" class="ml-3 mt-4">
-          <v-card class=" mx-auto green accent-3" outlined tile max-width="600">
-            <router-link to="/template11">
-              <v-img class="white--text align-end " src="/img/temdplate2.png">
-              </v-img>
+         <v-col cols="4" lg="4" class="ml-3 mt-4">
+          <v-card class=" mx-auto grey darken-4" outlined tile max-width="600">
+            <router-link to="/Template15">
+              <v-img
+                class="white--text align-end"
+                src="/img/template2.png"
+              ></v-img>
             </router-link>
-           
-            
+
+            <v-card-title class="white--text text--lighten-1 dfcdacasdcs"
+              ><strong> ঘরে বসে শিখি</strong></v-card-title
+            >
           </v-card>
         </v-col>
 

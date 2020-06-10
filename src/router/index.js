@@ -110,7 +110,13 @@ const routes = [
     path: "/Template14",
     name: "Template14",
     component: () => import("../views/Template14.vue")
+  },
+  {
+    path: "/Template15",
+    name: "Template15",
+    component: () => import("../views/Template15.vue")
   }
+
 
  
 ];
