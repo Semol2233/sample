@@ -118,11 +118,6 @@ export default {
           class: "৩য়",
           subject: "গণিত",
           duration: "১০:২০-১০:৪০"
-        },
-                {
-          class: "৩য়",
-          subject: "গণিত",
-          duration: "১০:২০-১০:৪০"
         }
         // {
         //   class: "৪র্থ",
@@ -250,7 +245,7 @@ export default {
   border: 1px solid #fff;
   color: #fff;
   font-size: 23px;
-  padding: 6px 0;
+  padding: 9px 0;
   text-align: center;
 }
 
