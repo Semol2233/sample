@@ -245,7 +245,7 @@ export default {
   border: 1px solid #fff;
   color: #fff;
   font-size: 23px;
-  padding: 9px 0;
+  padding: 10px 0;
   text-align: center;
 }
 
