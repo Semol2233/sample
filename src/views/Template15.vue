@@ -86,7 +86,7 @@ export default {
           class: "৬ষ্ঠ",
           subject1: "গণিত",
           subjddect1: "----------------",
-          time1: "(সকাল ১১.০৫ - ১১.২৫)",
+          time1: "(দুপুর ০২.৩৫- দুপুর ০২.৫৫)",
           subject2: "----------------",
           time2: "(সকাল ১১.৪৫)"
         },
@@ -94,7 +94,7 @@ export default {
           class: "৭ম",
           subject1: "তথ্য ও যোগাযোগ প্রযুক্তি",
           subjddect1: "----------------",
-          time1: "(সকাল  ১১.২৫ - ১১.৪৫)",
+          time1: "(দুপুর ০২.৫৫- দুপুর ০৩.১৫)",
           subject2: "----------------",
           time2: "(সকাল ১১.৪৫)"
         },
@@ -102,7 +102,7 @@ export default {
           class: "৮ম",
           subject1: "বিজ্ঞান",
           subjddect1: "----------------",
-          time1: "(সকাল ১১.৪৫ - দুপুর ১২.২৫)",
+          time1: "(দুপুর ০৩.১৫- দুপুর ০৩.৩৫)",
           subject2: "বাংলা",
           time2: "(দুপুর ১.০৫)"
         },
@@ -110,10 +110,12 @@ export default {
           class: "৯ম",
           subject1: "গণিত",
           subjddect1: "ইতিহাস",
-          time1: "(দুপুর ১২.২৫ - দুপুর ০১.২৫)",
+          time1: "(দুপুর ০৩.৩৫- দুপুর ০৩.৫৫)",
           subject2: "জীববিজ্ঞান",
           time2: "(দুপুর ১.৪৫)"
         }
+
+        
       ]
     };
   },
@@ -166,7 +168,7 @@ export default {
   width: 232px;
 }
 .routine--template11 .column1 .table-input {
-  max-width: 207px;
+  max-width: 215px;
 }
 
 .routine--template11 .column2 {
@@ -180,7 +182,7 @@ export default {
   width: 232px;
 }
 .routine--template11 .column3 .table-input {
-  max-width: 187px;
+  max-width: 179px;
 }
 
 .routine--template11 .column4 {
@@ -193,7 +195,7 @@ export default {
   border: 2px solid #fff;
   width: 754px;
   margin-left: 79px;
-  margin-top: 16px;
+  margin-top: 14px;
   border-collapse: collapse;
 }
 
@@ -211,12 +213,12 @@ export default {
   text-align: center;
   font-weight: bold;
 }
-
+ 
 .routine-tabsle td {
   border: 1px solid #fff;
   color: #fff;
   font-size: 20px;
-  padding: 10px 0;
-  text-align: center;
+  padding: 11px 0;
+  text-align: center; 
 }
 </style>

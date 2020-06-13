@@ -86,40 +86,40 @@ export default {
           class: "৬ষ্ঠ",
           subject1: "গণিত",
           subjddect1: "----------------",
-          time1: "(সকাল ১১.০৫ - ১১.২৫)",
+          time1: "(দুপুর ০২.৩৫- দুপুর ০২.৫৫)",
           subject2: "----------------",
           time2: "(সকাল ১১.৪৫)"
         },
         {
           class: "৭ম",
-          subject1: "তথ্য ও যোগাযোগ প্রযুক্তি",
+          subject1: "বাংলাদেশ ও বিশ্বপরিচয়",
           subjddect1: "----------------",
-          time1: "(সকাল  ১১.২৫ - ১১.৪৫)",
+          time1: "(দুপুর ০২.৫৫- দুপুর ০৩.১৫)",
           subject2: "----------------",
           time2: "(সকাল ১১.৪৫)"
         },
         {
           class: "৮ম",
-          subject1: "বিজ্ঞান",
+          subject1: "ইংরেজি",
           subjddect1: "----------------",
-          time1: "(সকাল ১১.৪৫ - দুপুর ১২.২৫)",
-          subject2: "বাংলা",
+          time1: "(দুপুর ০৩.১৫- দুপুর ০৩.৩৫)",
+          subject2: "----------------",
           time2: "(দুপুর ১.০৫)"
         },
         {
           class: "৯ম",
-          subject1: "গণিত",
-          subjddect1: "ইতিহাস",
-          time1: "(দুপুর ১২.২৫ - দুপুর ০১.২৫)",
-          subject2: "জীববিজ্ঞান",
+          subject1: "জীববিজ্ঞান",
+          subjddect1: "----------------",
+          time1: "(দুপুর ০৩.৩৫- দুপুর ০৩.৫৫)",
+          subject2: "----------------",
           time2: "(দুপুর ১.৪৫)"
         },
         {
           class: "১০ম",
-          subject1: "ইংরেজি",
-          subjddect1: "অর্থনীতি",
-          time1: "(দুপুর ০১.০৫ - ২.১০)",
-          subject2: "তথ্য ও যোগাযোগ প্রযুক্তি",
+          subject1: "ফিন্যান্স ও ব্যাংকিং",
+          subjddect1: "----------------",
+          time1: "(দুপুর ০৩.৫৫- বিকাল ০৪.১৫)",
+          subject2: "----------------",
           time2: "(দুপুর ২.২৫)"
         }
       ]
@@ -174,7 +174,7 @@ export default {
   width: 232px;
 }
 .routine--template11 .column1 .table-input {
-  max-width: 207px;
+  max-width: 212px;
 }
 
 .routine--template11 .column2 {
@@ -201,7 +201,7 @@ export default {
   border: 2px solid #fff;
   width: 754px;
   margin-left: 79px;
-  margin-top: 16px;
+  margin-top: 14px;
   border-collapse: collapse;
 }
 
