@@ -80,7 +80,7 @@ export default {
   data() {
     return {
       routineDate: "৮ জুন এর সময়সূচি",
-      coronaBreak: "জাতীয় সঙ্গীত ও করোনা সচেতনতা (সকাল ১০.৪০-১০.৪৫)",
+      coronaBreak: "জাতীয় সঙ্গীত ও করোনা সচেতনতা (দুপুর ০২.৩০-০২.৩০)",
       routine: [
         {
           class: "৬ষ্ঠ",
