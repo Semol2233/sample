@@ -159,9 +159,9 @@ text-align: center;
 
 .routssine-table {
     border: 2px solid #fff;
-    width: 755px;
+    width: 758px;
     margin-left: 73px;
-    margin-top: 61px;
+    margin-top: 59px;
     border-collapse: collapse;
 }
 
