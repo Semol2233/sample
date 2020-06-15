@@ -26,6 +26,8 @@
               </td>
               <td class="column2">
                 <input type="text" v-model="r.subject" class="tasddble-input" />
+                <input type="text" v-model="r.sd" class="tasddble-input" />
+
               </td>
 
               <div class="column3">
@@ -160,8 +162,8 @@ text-align: center;
 .routssine-table {
     border: 2px solid #fff;
     width: 757px;
-    margin-left: 73px;
-    margin-top: 59px;
+    margin-left: 68px;
+    margin-top: 57px;
     border-collapse: collapse;
 }
 
@@ -181,11 +183,11 @@ text-align: center;
 }
 
 .routssine-table td {
-border: 1px solid #fff;
-color: #fff;
-font-size: 23px;
-padding: 30px 0;
-text-align: center;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 23px;
+    padding: 19px 0;
+    text-align: center;
 }
 
 .datssse {
@@ -201,16 +203,16 @@ text-align: center;
 }
 
 .column2 .tasddble-input {
-    width: 429px;
+    width: 365px;
     height: 35px;
     text-align: center;
 }
 .column3 .tasddble-input {
-    width: 208px;
+width: 255px;
     height: 35px;
     text-align: center;
     color: #fff;
-    font-size: 19px;
+    font-size: 23px;
     margin-top: 27px;
 }
 
