@@ -115,10 +115,19 @@ const routes = [
     path: "/Template15",
     name: "Template15",
     component: () => import("../views/Template15.vue")
+  },
+  {
+    path: "/teamplte16",
+    name: "teamplte16",
+    component: () => import("../views/teamplte16.vue")
+  },
+  {
+    path: "/Template17",
+    name: "Template17",
+    component: () => import("../views/Template17.vue")
   }
 
 
- 
 ];
 
 const router = new VueRouter({

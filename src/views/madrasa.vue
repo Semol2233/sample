@@ -60,6 +60,25 @@
       </v-row>
 
 
+      <v-row class="mb-6 mt-7" justify="center" no-gutters>
+        <v-col cols="3" lg="4" class="ml-3">
+          <v-card class=" mx-auto grey darken-4" outlined tile max-width="600">
+            <router-link to="/teamplte16">
+              <v-img
+                class="white--text align-end"
+                src="/img/DFCDFDFFD.png"
+              ></v-img>
+            </router-link>
+
+            <v-card-title class="white--text text--lighten-1 dfcdacasdcs"
+              ><strong> ঘরে বসে শিখি</strong></v-card-title
+            >
+          </v-card>
+        </v-col>
+
+
+      </v-row>
+
     </v-container>
   </div>
 </template>
