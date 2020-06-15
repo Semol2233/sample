@@ -161,7 +161,7 @@ text-align: center;
     border: 2px solid #fff;
     width: 757px;
     margin-left: 73px;
-    margin-top: 61px;
+    margin-top: 59px;
     border-collapse: collapse;
 }
 
