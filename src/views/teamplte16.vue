@@ -159,9 +159,9 @@ text-align: center;
 
 .routssine-table {
     border: 2px solid #fff;
-    width: 758px;
+    width: 757px;
     margin-left: 73px;
-    margin-top: 59px;
+    margin-top: 61px;
     border-collapse: collapse;
 }
 
@@ -201,17 +201,17 @@ border: 1px solid #fff;
 }
 
 .column2 .tasddble-input {
-    width: 359px;
+    width: 429px;
     height: 35px;
     text-align: center;
 }
 .column3 .tasddble-input {
-  width: 282px;
-  height: 35px;
-  text-align: center;
-  color: white;
-  font-size: 23px;
-  margin-top: 27px;
+    width: 208px;
+    height: 35px;
+    text-align: center;
+    color: #fff;
+    font-size: 19px;
+    margin-top: 27px;
 }
 
 .column1 {
