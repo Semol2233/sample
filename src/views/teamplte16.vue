@@ -163,7 +163,7 @@ text-align: center;
     border: 2px solid #fff;
     width: 757px;
     margin-left: 68px;
-    margin-top: 57px;
+    margin-top: 55px;
     border-collapse: collapse;
 }
 
