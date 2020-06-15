@@ -182,10 +182,10 @@ text-align: center;
 
 .routssine-table td {
 border: 1px solid #fff;
-    color: #fff;
-    font-size: 25px;
-    padding: 29px 0;
-    text-align: center;
+color: #fff;
+font-size: 23px;
+padding: 30px 0;
+text-align: center;
 }
 
 .datssse {
