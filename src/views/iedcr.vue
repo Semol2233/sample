@@ -7,7 +7,13 @@
     <div class="routine-container">
       <div class="routine routine--template1343" id="routine" ref="routine">
         <div class="dassste">
-          <input type="text" class="date-inpssut" v-model="routineDate" />
+          <input type="text" style="
+            max-width: 100%;
+  text-align: center;
+  width: 441px;
+          
+          
+          " v-model="routineDate" />
         </div>
 
         <div class="flex-container">
@@ -84,7 +90,7 @@ export default {
   components: {},
   data() {
     return {
-      routineDate: "০৮ রমজান ০১ মে ,শুক্রবার ২০২০",
+      routineDate: "সোমবার | জুন | ২০২০",
       routinessDate: [
         {
           time: "৩৪৮০"
