@@ -157,6 +157,27 @@ export default {
   margin-bottom: 404px;
 }
 
+
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 99px;
+  margin-left: 170px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .hgdacudcs {
   font-family: "Hind Siliguri", sans-serif;
 }

@@ -14,7 +14,7 @@
             <tr>
               <th class="column1">শ্রেণী</th>
               <th class="column2">১ম পিরিয়ড</th>
-              <th class="column3">২য় পিরিয়ড</th>
+              <th class="column3">সময়</th>
             </tr>
           </thead>
 
