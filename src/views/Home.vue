@@ -108,9 +108,21 @@
                 >
             </v-card>
           </v-col>
-
           <v-col cols="3" lg="4" class="ml-3">
-            <v-card class="" outlined tile max-width="600"> </v-card>
+            <v-card
+              class=" mx-auto grey darken-4"
+              outlined
+              tile
+              max-width="600"
+            >
+             <router-link to="/iedcr">
+              <v-img class="white--text align-end " src="/img/iedcr.png">
+              </v-img>
+               </router-link>
+               <v-card-title class="yellow--text text--lighten-1 dfcdacasdcs"
+                  ><strong>Iecdr</strong></v-card-title
+                >
+            </v-card>
           </v-col>
         </v-row>
       </div>

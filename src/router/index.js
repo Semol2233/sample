@@ -130,9 +130,12 @@ const routes = [
     path: "/Template18",
     name: "Template18",
     component: () => import("../views/Template18.vue")
+  },
+  {
+    path: "/iedcr",
+    name: "iedcr",
+    component: () => import("../views/iedcr.vue")
   }
-
-
 
 ];
 
