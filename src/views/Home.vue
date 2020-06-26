@@ -216,9 +216,7 @@ export default {
 .adfgsadius {
   width: 300px;
 }
-.dfcsdcssd {
-  border: ;
-}
+
 
 .dfcdacasdcs {
   font-family: "Hind Siliguri", sans-serif;

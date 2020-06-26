@@ -11,7 +11,7 @@
 }
 /* .template-page {
 width: 100%;
-} */dd  
+} */
 
 /* Hide scrollbar for Chrome, Safari and Opera */
 .routine-container::-webkit-scrollbar {
@@ -25,8 +25,8 @@ width: 100%;
 }
 
 .routine {
-  width: 900px;
-  height: 900px;
+  width: 1362px;
+  height: 1380px; 
   background-image: url("/img/template1.png");
   background-size: 100% 100%;
   padding-top: 231px;
@@ -36,7 +36,7 @@ width: 100%;
 .routine--template9 {
   background-image: url("/img/template2.png");
   background-size: 100% 100%;
-  padding-top: 171px;
+  padding-top: 281px;
 }
 .routine--template10 {
   background-image: url("/img/template3.png");
@@ -53,7 +53,7 @@ width: 100%;
 .routine--template5 {
   background-image: url("/img/shemol.png");
   background-size: 100% 100%;
-  padding-top: 115px;
+  padding-top: 254px;
 }
 
 .routine--template10 {
@@ -108,18 +108,7 @@ width: 100%;
   font-weight: bold;
   font-size: 43px;
 }
-.datse {
-  margin-left: 231px;
-  width: 441px;
-  height: 68px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  font-weight: bold;
-  font-size: 43px;
-  margin-top: 104px;
-}
+
 .date-input {
   max-width: 100%;
   text-align: center;

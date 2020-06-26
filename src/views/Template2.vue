@@ -6,7 +6,7 @@
 
     <div class="routine-container">
       <div class="routine routine--template9" id="routine" ref="routine">
-        <div class="date">
+        <div class="ddcdcate">
           <input type="text" class="date-input" v-model="routineDate" />
         </div>
 
@@ -136,15 +136,25 @@ export default {
 </script>
 
 <style>
+.ddcdcate {
+  margin-left: 423px;
+  width: 512px;
+  height: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 65px;
+}
 
-.template-page{
-   font-family: "Hind Siliguri", sans-serif;
-
+.template-page {
+  font-family: "Hind Siliguri", sans-serif;
 }
 .corona-input {
   width: 100%;
   text-align: center;
-  font-size: 22px;
+  font-size: 29px;
 }
 
 .routine--template2 .routine-table th {
@@ -161,31 +171,31 @@ export default {
 }
 
 .routine--template9 .column1 {
-  width: 232px;
+  width: 239px;
 }
 .routine--template9 .column1 .table-input {
-  max-width: 222px;
+  max-width: 325px;
 }
 
 .routine--template9 .column2 {
   width: 232px;
 }
 .routine--template9 .column2 .table-input {
-  max-width: 222px;
+  max-width: 299px;
 }
 
 .routine--template9 .column3 {
   width: 232px;
 }
 .routine--template9 .column3 .table-input {
-  max-width: 222px;
+  max-width: 302px;
 }
 
 .routine-tabsle {
   border: 2px solid #fff;
-  width: 691px;
-  margin-left: 97px;
-  margin-top: 16px;
+  width: 1055px;
+  margin-left: 143px;
+  margin-top: 38px;
   border-collapse: collapse;
 }
 
@@ -198,7 +208,7 @@ export default {
   border: 1px solid #fff;
   border-collapse: collapse;
   color: #fff;
-  font-size: 22px;
+  font-size: 32px;
   padding: 10px 0;
   text-align: center;
   font-weight: bold;
@@ -207,8 +217,8 @@ export default {
 .routine-tabsle td {
   border: 1px solid #fff;
   color: #fff;
-  font-size: 20px;
-  padding: 0px 0;
+  font-size: 32px;
+  padding: 0px 0;  
   text-align: center;
 }
 </style>

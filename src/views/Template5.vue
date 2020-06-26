@@ -155,20 +155,42 @@ export default {
 </script>
 
 <style>
+
+
+
+
+.hgdacudcs{
+  font-family: "Hind Siliguri", sans-serif;
+}
 .routine--template5 .routsssine-table {
-margin-top: 16px;
+margin-top: 36px;  
+}
+.datse {
+  margin-left: 462px;
+  width: 441px;
+  height: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 60px;
+  margin-top: 103px;
 }
 
+
+
+
 .routine--template5 .routsssine-table th {
-  padding: 8px 0;
-  font-size: 23px;
+    padding: 8px 0;
+    font-size: 32px;
 }
 
 .routine--template5 .routsssine-table td {
   border: 1px solid #fff;
   color: #fff;
-  font-size: 23px;
-  padding: 19px 0; 
+  font-size: 35px; 
+  padding: 33px 0; 
   text-align: center;
 }
 
@@ -179,9 +201,7 @@ margin-top: 16px;
 .prak-row input {
   font-size: 21px;
 }
-.hgdacudcs {
-  font-family: 'kongshomjregular';
-}
+
 .datse{
  
     font-family: "Hind Siliguri", sans-serif;
@@ -189,10 +209,10 @@ margin-top: 16px;
 }
 .routsssine-table {
 border: 2px solid #fff;
-width: 684px;
-margin-left: 110px;
-margin-top: 25px;
-border-collapse: collapse;
+    width: 1044px;
+    margin-left: 162px;
+    margin-top: 25px;
+    border-collapse: collapse;
 }
 
 .routine--template2 .routsssine-table {
@@ -227,17 +247,17 @@ border-collapse: collapse;
 } 
 
  .column1 .table-input {
-  max-width: 104px;
+  max-width: 135px;
 }
 
 
 .column2 .table-input {
-    height: 35px;
-    width: 196px;
+    height: 53px;
+    width: 275px;
 }
 
 
 .column3 .table-input {
-    width: 163px;
+    width: 240px;
 } 
 </style>

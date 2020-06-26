@@ -141,7 +141,7 @@ export default {
 </script>
 
 <style>
-.routine--template10 {
+.routine--template1343 {
   font-family: "Hind Siliguri", sans-serif;
 }
 

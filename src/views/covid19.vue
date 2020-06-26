@@ -28,20 +28,9 @@
           />
         </div>
 
-        <div
-          style="display: flex;flex-wrap: nowrap;margin-top: 49px; margin-left: 42px;"
-        >
+        <div class="defdefcdefc">
           <div v-for="(r, i) in iedcr" :key="i">
-            <div
-              style="    width: 181px;
-    height: 68px;
-    justify-content: center;
-    align-items: center;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    font-size: 41px;
-    margin-top: 38px;"
-            >
+            <div class="dffcdhg">
               <input type="text" class="date-inpssut" v-model="r.time" />
             </div>
           </div>
@@ -135,9 +124,9 @@ export default {
         var a = document.createElement("a");
         // toDataURL defaults to png, so we need to request a jpeg, then convert for file download.
         a.href = canvas
-          .toDataURL("image/jpeg")
-          .replace("image/jpeg", "image/octet-stream");
-        a.download = "ramadan.jpg";
+          .toDataURL("image/PNG")
+          .replace("image/PNG", "image/octet-stream");
+        a.download = "covid19.PNG";
         a.click();
         this.$refs.routine.style.border = "1px solid #000";
       });
@@ -147,7 +136,7 @@ export default {
 </script>
 
 <style>
-.routine--template10 {
+.routine--template13a43 {
   font-family: "Hind Siliguri", sans-serif;
 }
 
@@ -162,28 +151,46 @@ export default {
   max-width: 100%;
   text-align: center;
 }
+
+.defdefcdefc {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 49px;
+  margin-left: 42px;
+}
+.dffcdhg {
+  width: 230px;
+  height: 68px;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 61px;
+  margin-top: 149px;
+  margin-left: 46px;
+}
 .dassste {
-  margin-left: 218px;
-  width: 456px;
+  margin-left: 501px;
+  width: 357px;
   height: 68px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #fff;
   font-weight: bold;
-  font-size: 32px;
-  margin-top: -39px;
+  font-size: 42px;
+  margin-top: 67px;
 }
 .deusdcdfhu {
-  width: 115px;
-  height: 68px;
-  justify-content: center;
-  align-items: center;
-  font-weight: bold;
-  font-size: 20px;
-  margin-top: 21px;
-  color: black;
-  margin-left: 99px;
+width: 115px;
+height: 68px;
+justify-content: center;
+align-items: center;
+font-weight: bold;
+font-size: 26px;
+margin-top: 101px;
+color: black;
+margin-left: 201px;
 }
 
 .deusdcddcedfhu {
@@ -198,8 +205,8 @@ export default {
   margin-left: 96px;
 }
 .dassdfcdessste {
-  margin-left: 174px;
-  width: 456px;
+  margin-left: 305px;
+  width: 207px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -208,16 +215,16 @@ export default {
   font-size: 34px;
   margin-top: 49px;
 }
-.deusdcddcedsfhu{
+.deusdcddcedsfhu { 
     width: 97px;
-  height: 68px;
-  justify-content: center;
-  align-items: center;
-  font-weight: bold;
-  font-size: 20px;
-  margin-top: 21px;
-  color: rgb(0, 0, 0);
-  margin-left: 65px;
+    height: 68px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 26px;
+    margin-top: 101px;
+    color: rgb(0, 0, 0);
+    margin-left: 149px;
 }
 .deusdcdfdcdchu {
   width: 110px;
@@ -225,10 +232,10 @@ export default {
   justify-content: center;
   align-items: center;
   font-weight: bold;
-  font-size: 20px;
-  margin-top: 21px;
+  font-size: 26px;
+  margin-top: 101px;
   color: rgb(0, 0, 0);
-  margin-left: 65px;
+  margin-left: 149px;
 }
 .dassssste {
   margin-left: 222px;
