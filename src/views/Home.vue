@@ -126,6 +126,43 @@
           </v-col>
         </v-row>
       </div>
+
+            <div class="ihgdushd">
+        <v-row class="mb-6 mt-7" justify="center" no-gutters>
+          <v-col cols="3" lg="4" class="ml-3">
+            <v-card
+              class=" mx-auto grey darken-4"
+              outlined
+              tile
+              max-width="600"
+            >
+             <router-link to="/covid19">
+              <v-img class="white--text align-end " src="/img/forweb.png">
+              </v-img>
+               </router-link>
+               <v-card-title class="yellow--text text--lighten-1 dfcdacasdcs"
+                  ><strong>Iecdr</strong></v-card-title
+                >
+            </v-card>
+          </v-col>
+          <v-col cols="3" lg="4" class="ml-3">
+            <v-card
+              class=" mx-auto grey darken-4"
+              outlined
+              tile
+              max-width="600"
+            >
+             <router-link to="/iedcr">
+              <v-img class="white--text align-end " src="/img/w.png">
+              </v-img>
+               </router-link>
+               <v-card-title class="yellow--text text--lighten-1 dfcdacasdcs"
+                  ><strong>Iecdr</strong></v-card-title
+                >
+            </v-card>
+          </v-col>
+        </v-row>
+      </div>
     </v-container>
   </div>
 </template>
@@ -165,9 +202,12 @@ export default {
 .v-application .mb-6 {
   margin-bottom: 1px !important;
 }
-.ihgdushd {
-  margin-top: 300p;
+/* .ihgdushd {
+  margin-top: 300px;
 }
+.ihssgdushd {
+  margin-top: 300px;
+} */
 .v-button {
   font-size: 12px;
   height: 30px;
