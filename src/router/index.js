@@ -135,6 +135,11 @@ const routes = [
     path: "/iedcr",
     name: "iedcr",
     component: () => import("../views/iedcr.vue")
+  },
+  {
+    path: "/covid19",
+    name: "covid19",
+    component: () => import("../views/covid19.vue")
   }
 
 ];
