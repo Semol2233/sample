@@ -155,8 +155,8 @@ export default {
 .defdefcdefc {
   display: flex;
   flex-wrap: nowrap;
-  margin-top: 49px;
-  margin-left: 42px;
+    margin-top: -24px;
+    margin-left: 42px;
 }
 .dffcdhg {
   width: 230px;
@@ -205,15 +205,15 @@ margin-left: 201px;
   margin-left: 96px;
 }
 .dassdfcdessste {
-  margin-left: 305px;
-  width: 207px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  font-size: 34px;
-  margin-top: 49px;
+margin-left: 515px;
+    width: 207px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 55px;
+    margin-top: 90px;
 }
 .deusdcddcedsfhu { 
     width: 97px;
