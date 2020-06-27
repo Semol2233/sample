@@ -166,7 +166,7 @@ export default {
   color: rgb(255, 255, 255);
   font-weight: bold;
   font-size: 61px;
-  margin-top: 151px;
+  margin-top: 149px;  
   margin-left: 46px;
 }
 .dassste {
@@ -179,7 +179,7 @@ export default {
   color: #fff;
   font-weight: bold;
   font-size: 42px;
-  margin-top: 59px;
+  margin-top: 60px;
 }
 .deusdcdfhu {
 width: 115px;
@@ -213,7 +213,7 @@ margin-left: 515px;
     color: #fff;
     font-weight: 700;
     font-size: 55px;
-    margin-top: 96px;
+    margin-top: 97px;  
 }
 .deusdcddcedsfhu { 
     width: 97px;
