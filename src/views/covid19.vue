@@ -155,8 +155,8 @@ export default {
 .defdefcdefc {
   display: flex;
   flex-wrap: nowrap;
-    margin-top: -24px;
-    margin-left: 42px;
+  margin-top: -24px;
+  margin-left: 42px;
 }
 .dffcdhg {
   width: 230px;
@@ -166,7 +166,7 @@ export default {
   color: rgb(255, 255, 255);
   font-weight: bold;
   font-size: 61px;
-  margin-top: 149px;  
+  margin-top: 150px;
   margin-left: 46px;
 }
 .dassste {
@@ -182,15 +182,15 @@ export default {
   margin-top: 60px;
 }
 .deusdcdfhu {
-width: 115px;
-height: 68px;
-justify-content: center;
-align-items: center;
-font-weight: bold;
-font-size: 26px;
-margin-top: 101px;
-color: black;
-margin-left: 201px;
+  width: 115px;
+  height: 68px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 26px;
+  margin-top: 102px;
+  color: black;
+  margin-left: 201px;
 }
 
 .deusdcddcedfhu {
@@ -205,26 +205,26 @@ margin-left: 201px;
   margin-left: 96px;
 }
 .dassdfcdessste {
-margin-left: 515px;
-    width: 207px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    font-weight: 700;
-    font-size: 55px;
-    margin-top: 97px;  
+  margin-left: 515px;
+  width: 207px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 55px;
+  margin-top: 97px;
 }
-.deusdcddcedsfhu { 
-    width: 97px;
-    height: 68px;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    font-size: 26px;
-    margin-top: 101px;
-    color: rgb(0, 0, 0);
-    margin-left: 149px;
+.deusdcddcedsfhu {
+  width: 97px;
+  height: 68px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 26px;
+  margin-top: 102px;
+  color: rgb(0, 0, 0);
+  margin-left: 158px;
 }
 .deusdcdfdcdchu {
   width: 110px;
@@ -233,9 +233,9 @@ margin-left: 515px;
   align-items: center;
   font-weight: bold;
   font-size: 26px;
-  margin-top: 101px;
+  margin-top: 102px; 
   color: rgb(0, 0, 0);
-  margin-left: 149px;
+  margin-left: 152px;
 }
 .dassssste {
   margin-left: 222px;
@@ -314,7 +314,7 @@ margin-left: 515px;
 .date-inpssut {
   max-width: 100%;
   text-align: center;
-  width: 258px;
+  width: 211px;
 }
 .routine-tabsle th {
   border: 1px solid #fff;
