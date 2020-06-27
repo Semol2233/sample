@@ -137,7 +137,7 @@
               max-width="600"
             >
              <router-link to="/covid19">
-              <v-img class="white--text align-end " src="/img/forweb.png">
+              <v-img class="white--text align-end " src="/img/forwebupdate.png">
               </v-img>
                </router-link>
                <v-card-title class="yellow--text text--lighten-1 dfcdacasdcs"
