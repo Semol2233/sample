@@ -166,16 +166,16 @@ export default {
 margin-top: 36px;  
 }
 .datse {
-  margin-left: 462px;
-  width: 441px;
-  height: 68px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  font-weight: bold;
-  font-size: 60px;
-  margin-top: 103px;
+margin-left: 418px;
+width: 542px;
+height: 68px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #fff;
+font-weight: 700;
+font-size: 60px;
+margin-top: 103px;
 }
 
 
