@@ -26,7 +26,7 @@
               </td>
               <td class="column2">
                 <input type="text" v-model="r.subject" class="tasddble-input" />
-                <input type="text" v-model="r.sd" class="tasddble-input" />
+              
 
               </td>
 
@@ -153,17 +153,19 @@ export default {
   font-family: "Hind Siliguri", sans-serif;
 }
 .ddate-input {
-text-align: center;
-    width: 461px;
-    margin-top: 85px;
-    height: 68px;
+    text-align: center;
+    width: 664px;
+    margin-top: 69px;
+    height: 90px;
+    color: white;
+    font-size: 62px;
 }
 
 .routssine-table {
     border: 2px solid #fff;
-    width: 757px;
-    margin-left: 68px;
-    margin-top: 55px;
+    width: 1151px;
+    margin-left: 100px;
+    margin-top: 74px;
     border-collapse: collapse;
 }
 
@@ -173,46 +175,48 @@ text-align: center;
 }
 
 .routssine-table th {
-  border: 1px solid #fff;
-  border-collapse: collapse;
-  color: #fff;
-  font-size: 22px;
-  padding: 10px 0;
-  text-align: center;
-  font-weight: bold;
+    border: 1px solid #fff;
+    border-collapse: collapse;
+    color: #fff;
+    font-size: 39px;
+    padding: 10px 0;
+    text-align: center;
+    font-weight: bold;
+
 }
 
 .routssine-table td {
-    border: 1px solid #fff;
+border: 1px solid #fff;
     color: #fff;
-    font-size: 23px;
-    padding: 19px 0;
+    font-size: 37px;
+    padding: 56px 0;
     text-align: center;
 }
 
 .datssse {
-  margin-left: 231px;
-  width: 441px;
-  height: 68px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  font-weight: bold;
-  font-size: 43px;
+    margin-left: 444px;
+    width: 427px;
+    height: 71px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 66p
 }
 
 .column2 .tasddble-input {
-    width: 365px;
-    height: 35px;
+    width: 463px;
+    height: 57px;
     text-align: center;
+    color: white;
 }
 .column3 .tasddble-input {
-width: 255px;
-    height: 35px;
+    width: 405px;
+    height: 49px;
     text-align: center;
     color: #fff;
-    font-size: 23px;
+    font-size: 37px;
     margin-top: 27px;
 }
 
@@ -221,7 +225,8 @@ width: 255px;
 }
 
 .column1 .table-input {
-  max-width: 104px;
+    max-width: 230px;
+    color: white;
 }
 
 .column2 .table-input {
