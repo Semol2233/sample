@@ -1,126 +1,121 @@
 <template>
   <div class="template-page">
-
- <div class="mt-4 mb-2 ml-5 download-container">
+    <div class="mt-4 mb-2 ml-5 download-container">
       <v-btn color="primary" @click="downloadNow">Download</v-btn>
     </div>
     <div class="routine-container">
       <div class="routine routine--template4" id="routine" ref="routine">
-        <div class="date">
-          <input type="text" class="date-input" v-model="routineDate" />
+        <div class="dasste">
+          <input type="text" class="dasste-input" v-model="routineDate" />
         </div>
 
-        <table class="rSSSFDoutine-table">
+        <table class="routssine-table">
           <thead>
             <tr>
               <th class="column1">শ্রেণী</th>
               <th class="column2">১ম পিরিয়ড</th>
-              <th class="column3">২য় পিরিয়ড</th>
+              <th class="column3">সময়</th>
             </tr>
           </thead>
 
           <tbody>
-            <tr v-for="(r, i) in routine" :key="i">
+            <tr>
               <td class="column1">
-                <input type="text" v-model="r.class" class="table-input" />
+                <input type="text" v-model="class1" class="tasble-input" />
               </td>
               <td class="column2">
-                <input type="text" v-model="r.subject1" class="table-input" />
-                <input
-                  type="text"
-                  v-model="r.time1"
-                  class="table-input table-input--small"
-                />
-
-                <input type="text" v-model="r.subject2" class="table-input" />
-                <input
+                <input type="text" v-model="subject1" class="tasble-input" />
+                <!-- <input
                   type="text"
                   v-model="r.time2"
-                  class="table-input table-input--small"
-                />
+                  class="tasble-input tasble-input--small"
+                /> -->
               </td>
-              <td class="column3">
-                <hr class="blank" v-if="!r.subject3" />
-                <template v-else>
-                  <input type="text" v-model="r.subject3" class="table-input" />
-                  <input
-                    type="text"
-                    v-model="r.time3"
-                    class="table-input table-input--small"
-                  />
 
-                  <input type="text" v-model="r.subject4" class="table-input" />
-                  <input
-                    type="text"
-                    v-model="r.time4"
-                    class="table-input table-input--small"
-                  />
-                </template>
-              </td>
+              <div class="coludmn3">
+              
+              </div>
             </tr>
 
-            <!-- <tr v-for="(r, i) in routine" :key="i">
-              <td>
-                <div contenteditable="true" :value="r.class">
-                  {{ r.class }}
-                </div>
+            <tr>
+              <td class="column1">
+                <input type="text" v-model="class12" class="tasble-input" />
               </td>
-              <td>
-                <div contenteditable="true" :value="r.subject">
-                  {{ r.subject }}
-                </div>
+              <td class="column2">
+                <input type="text" v-model="subject12" class="tasble-input" />
+                
+                <!-- <input
+                  type="text"
+                  v-model="r.time2"
+                  class="tasble-input tasble-input--small"
+                /> -->
               </td>
-              <td>
-                <div contenteditable="true" :value="r.duration">
-                  {{ r.duration }}
-                </div>
+
+              <div class="column3">
+                <input type="text" v-model="subject2" class="tasddble-input" />
+                 <input type="text" v-model="subject4" class="tasddble-input" /> 
+              </div>
+            </tr>
+
+
+
+ <tr>
+              <td class="column1">
+                <input type="text" v-model="class123" class="tasble-input" />
               </td>
-            </tr> -->
+              <td class="column2">
+                <input type="text" v-model="subject123" class="tasble-input" />
+                <!-- <input
+                  type="text"
+                  v-model="r.time2"
+                  class="tasble-input tasble-input--small"
+                /> -->
+              </td>
+
+              <div class="column3s"> 
+             
+              </div>
+            </tr>
+
+
+
+
+
+
+
+
+
+
           </tbody>
         </table>
       </div>
     </div>
-
-
-
   </div>
 </template>
 
 <script>
 import html2canvas from "html2canvas";
 
-
 export default {
-       components: {
-   
-    },
+  components: {},
   data() {
     return {
-      routineDate: "৩ মে এর সময়সূচি ",
-      routine: [
-        {
-          class: "৯ম",
-          subject1: "জেনারেল ইলেক্ট্রিক্যাল ওয়ার্কস",
-          time1: "(বিকেল ২.৩০)",
-          subject2: "করোনা বিষয়ক সচেতনতা",
-          time2: "(বিকেল ২.৪৮)",
-          subject3: "ফার্ম মেশিনারী",
-          time3: "(বিকেল ২.৫০)",
-          subject4: "করোনা বিষয়ক সচেতনতা",
-          time4: "(বিকেল ৩.০৮)"
-        },
-        {
-          class: "১০ম",
-          subject1: "ওয়েল্ডিং অ্যান্ড ফেব্রিকেশন",
-          time1: "(বিকেল ৩.১০)",
-          subject2: "করোনা বিষয়ক সচেতনতা",
-          time2: "(বিকেল ২.২৯)",
-          subject3: "",
-          time3: "",
-          subject4: "",
-          time4: ""
-        }
-      ]
+      routineDate: "০১ জুলাই - এর সময়সূচি ",
+
+      class1: "৯ম",
+      subject1: "জেনারেল ইলেকট্রনিক্স",
+
+
+      class12: "১০ম",
+      subject12: "পোল্ট্রি রিয়ারিং এন্ড ফ্রামিং",
+
+      class123: "১০ম",
+      subject123: "মেশিন টুলস অপারেশন",
+
+
+      subject2: "সকাল ১০:০০",
+      subject4: "থেকে ১১:০০ পর্যন্ত"
+
     };
   },
   mounted() {},
@@ -144,38 +139,44 @@ export default {
 </script>
 
 <style>
-.template-page{
-   font-family: "Hind Siliguri", sans-serif;
-
+.template-page {
+  font-family: "Hind Siliguri", sans-serif;
+}
+.routine--template7 .routine-tasble {
+  margin-top: 11px;
+  margin-left: 167px;
+  width: auto;
 }
 
-
-.routine--template4 .rSSSFDoutine-table th {
+.routine--template7 .routine-tasble th {
   padding: 5px 0;
   font-size: 20px;
 }
 
-.routine--template4 .rSSSFDoutine-table td {
+.routine--template7 .routine-tasble td {
   border: 1px solid #fff;
   color: #fff;
   font-size: 18px;
-  padding: 7px 0;
+  padding: 5px 0;
   text-align: center;
 }
 
-.routine--template4 .column2 {
+.routine--template7 .column2 {
   width: 232px;
 }
-.routine--template4 .column2 .table-input {
-  max-width: 222px;
+.routine--template7 .column2 .tasddble-input {
+  width: 282px;
+  height: 35px;
+  text-align: center;
 }
 
-.routine--template4 .column3 {
-  width: 232px;
-}
-
-.routine--template4 .table-input {
-  width: 222px;
+.routine--template7 .tasddble-input {
+  width: 282px;
+  height: 35px;
+  text-align: center;
+  color: white;
+  font-size: 23px;
+  margin-top: 27px;
 }
 
 .table-input--small {
@@ -189,57 +190,73 @@ hr.blank {
   margin: auto;
 }
 
-
- .column1 {
-  min-width: 99px;
-} 
-
- .column1 .table-input {
-  max-width: 104px;
-}
-
-
-.column2 .table-input {
-  max-width: 288px;
-}
-
-
-.column3 .table-input {
-  max-width: 240px;
-}
-
-
-
-
-
-.rSSSFDoutine-table {
-    border: 2px solid #fff;
-    width: 575px;
-    margin-left: 163px;
+.column3 .tasddble-input {
+    width: 233px;
+    /* height: 9px; */
+    text-align: center;
+    color: white;
+    font-size: 33px;
     margin-top: 6px;
+}
+
+.routssine-table {
+    border: 2px solid #fff;
+    width: 873px;
+    margin-left: 245px;
+    margin-top: 28px;
     border-collapse: collapse;
 }
 
-.rSSSFDoutine--template2 .rSSSFDoutine-table {
-  margin-left: 104px;
-  margin-top: 22px;
-}
-
-.rSSSFDoutine-table th {
+.routssine-table th {
   border: 1px solid #fff;
   border-collapse: collapse;
   color: #fff;
-  font-size: 22px;
-  padding: 10px 0;
+  font-size: 38px;
+  padding: 11px 0;
   text-align: center;
   font-weight: bold;
 }
 
-.rSSSFDoutine-table td {
-  border: 1px solid #fff;
-  color: #fff;
-  font-size: 25px;
-  padding: 10px 0;
+.routssine-table td {
+border: 1px solid #fff;
+    color: #fff;
+    font-size: 35px;
+    padding: 33px 0;
+    text-align: center;
+}
+
+.dasste {
+    margin-left: 460px;
+    width: 441px;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 56px;
+    margin-top: 116px;
+}
+
+.column2 .tasble-input {
+  width: 526px;
+}
+
+.tasble-input {
+  max-width: 100%;
+  text-align: center;
+}
+.column3 .tasble-input {
+  max-width: 209px;
+  margin-top: 3px;
+}
+
+.column1 .tasble-input {
+  max-width: 106px;
+}
+
+.dasste-input {
+  max-width: 123%;
   text-align: center;
 }
 </style>

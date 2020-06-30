@@ -151,18 +151,18 @@ hr.blank {
 }
 
 .routssine-table {
-  border: 2px solid #fff;
-  width: 577px;
-  margin-left: 162px;
-  margin-top: 6px;
-  border-collapse: collapse;
+border: 2px solid #fff;
+    width: 873px;
+    margin-left: 245px;
+    margin-top: 22px;
+    border-collapse: collapse;
 }
 
 .routssine-table th {
   border: 1px solid #fff;
   border-collapse: collapse;
   color: #fff;
-  font-size: 22px;
+  font-size: 38px;
   padding: 11px 0;
   text-align: center;
   font-weight: bold;
@@ -171,26 +171,26 @@ hr.blank {
 .routssine-table td {
   border: 1px solid #fff;
   color: #fff;
-  font-size: 21px;
+  font-size: 35px;
   padding: 14px 0;
   text-align: center;
 }
 
 .dasste {
-  margin-left: 231px;
-  width: 441px;
-  height: 68px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  font-weight: bold;
-  font-size: 43px;
-  margin-top: 104px;
+    margin-left: 459px;
+    width: 441px;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 56px;
+    margin-top: 108px;
 }
 
 .column2 .tasble-input {
-  width: 276px;
+  width: 560px;
 }
 
 .tasble-input {
@@ -203,12 +203,11 @@ hr.blank {
 }
 
 .column1 .tasble-input {
-  max-width: 70px;
+  max-width: 80px;
 }
 
 .dasste-input {
-  max-width: 100%;
+  max-width: 123%;
   text-align: center;
-  margin-top: 4px;
 }
 </style>
