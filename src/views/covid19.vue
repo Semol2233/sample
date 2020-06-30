@@ -170,16 +170,16 @@ export default {
   margin-left: 46px;
 }
 .dassste {
-  margin-left: 501px;
-  width: 357px;
-  height: 68px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  font-weight: bold;
-  font-size: 42px;
-  margin-top: 60px;
+margin-left: 394px;
+    width: 531px;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 42px;
+    margin-top: 60px;
 }
 .deusdcdfhu {
   width: 134px;
