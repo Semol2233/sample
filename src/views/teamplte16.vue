@@ -20,22 +20,88 @@
           </thead>
 
           <tbody class="hgdacudcs">
-            <tr v-for="(r, i) in routine" :key="i">
+            <tr>
               <td class="column1">
-                <input type="text" v-model="r.class" class="table-input" />
+                <input type="text" v-model="class_time" class="table-input" />
+                
               </td>
               <td class="column2">
-                <input type="text" v-model="r.subject" class="tasddble-input" />
+                <input type="text" v-model="subject" class="tasddble-input" />
+                <input type="text" v-model="subject1" class="tasddble-input" />
+
               
 
               </td>
 
               <div class="column3">
+                <!-- <input
+                  type="text"
+                  v-model="duration1" 
+                  class="tasddble-input"
+                /> -->
+
+              </div>
+            </tr>
+
+
+
+
+
+
+                        <tr>
+              <td class="column1">
+                <input type="text" v-model="class_time3" class="table-input" />
+                
+              </td>
+              <td class="column2">
+                <input type="text" v-model="subject3" class="tasddble-input" />
+                <input type="text" v-model="subject13" class="tasddble-input" />
+
+              
+
+              </td>
+
+              <div class="column3"> 
                 <input
                   type="text"
-                  v-model="r.duration"
+                  v-model="duration13" 
                   class="tasddble-input"
                 />
+                  <input
+                  type="text"
+                  v-model="duration23"   
+                  class="tasddble-input"
+                />
+
+              </div>
+            </tr>
+
+
+
+
+
+
+
+
+
+
+
+                        <tr>
+              <td class="column1">
+                <input type="text" v-model="class_time4" class="table-input" />
+                
+              </td>
+              <td class="column2">
+                <input type="text" v-model="subject4" class="tasddble-input" />
+                <input type="text" v-model="subject14" class="tasddble-input" />
+
+              
+
+              </td>
+
+              <div class="column4">
+               
+
               </div>
             </tr>
 
@@ -71,21 +137,25 @@ export default {
   data() {
     return {
       routineDate: "৩ মে এর সময়সূচি",
-      routine: [
-        {
-          class: "৭ম",
-          subject: "আরবি ২য় পত্র"
-        },
-        {
-          class: "৮ম",
-          subject: "আরবি ২য় পত্র",
-          duration: "বিকাল ৩টা থেকে ৩.৫০ পর্যন্ত "
-        },
-        {
-          class: "৯ম",
-          subject: "আরবি ২য় পত্র"
-        }
-      ],
+           class_time: "৭ম",
+          subject: "আকাইদ ও ফিকহ - পবিত্র পানির বৈশিষ্ট্য ,",
+          subject1: "ঝুটা পানির বিধান ও পানির প্রকারভেদ", 
+        
+
+
+          class_time3: "৭ম",
+          subject3: "আকাইদ ও ফিকহ - ইমান বিল মালাইকা ঈমান",
+          subject13: " বিল রাসুল -( শেষ অংশ )", 
+          duration13:"সকাল ১১:০০ থেকে",
+          duration23:"১২:০০ পর্যন্ত",
+
+
+
+          class_time4: "৭ম",
+          subject4: "আরবি ১ম পত্র - পরিবেশ দূষণ ",
+          subject14: "তালবিসুল বি আ ", 
+          
+  
       items: [
         {
           datas: " ১০.৪৫ - ১১.০৫ -- বাংলাদেশ ও বিশ্বপরিচয় + বিজ্ঞান "
@@ -189,7 +259,7 @@ export default {
 border: 1px solid #fff;
     color: #fff;
     font-size: 37px;
-    padding: 56px 0;
+    padding: 27px 0; 
     text-align: center;
 }
 
@@ -206,13 +276,13 @@ border: 1px solid #fff;
 }
 
 .column2 .tasddble-input {
-    width: 463px;
+    width: 685px;
     height: 57px;
     text-align: center;
     color: white;
 }
 .column3 .tasddble-input {
-    width: 405px;
+    width: 302px;
     height: 49px;
     text-align: center;
     color: #fff;
@@ -225,7 +295,7 @@ border: 1px solid #fff;
 }
 
 .column1 .table-input {
-    max-width: 230px;
+    max-width: 161px;
     color: white;
 }
 
@@ -236,4 +306,6 @@ border: 1px solid #fff;
 .column3 .table-input {
   max-width: 240px;
 }
+
+
 </style>
