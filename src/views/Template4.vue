@@ -220,8 +220,8 @@ hr.blank {
 .routssine-table td {
 border: 1px solid #fff;
     color: #fff;
-    font-size: 35px;
-    padding: 33px 0;
+    font-size: 34px;
+    padding: 35px 0;
     text-align: center;
 }
 
@@ -234,7 +234,7 @@ border: 1px solid #fff;
     align-items: center;
     color: #fff;
     font-weight: bold;
-    font-size: 56px;
+    font-size: 54px;
     margin-top: 116px;
 }
 
