@@ -12,7 +12,7 @@
             style="
             max-width: 100%;
   text-align: center;
-  width: 441px;
+  width: 573px;
            
           
           "
@@ -170,8 +170,8 @@ export default {
   margin-left: 46px;
 }
 .dassste {
-margin-left: 394px;
-    width: 531px;
+    margin-left: 377px;
+    width: 558px;
     height: 68px;
     display: flex;
     justify-content: center;
