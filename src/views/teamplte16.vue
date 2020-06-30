@@ -233,7 +233,7 @@ export default {
 
 .routssine-table {
     border: 2px solid #fff;
-    width: 1151px;
+    width: 1148px;
     margin-left: 100px;
     margin-top: 74px;
     border-collapse: collapse;
@@ -245,7 +245,7 @@ export default {
 }
 
 .routssine-table th {
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     border-collapse: collapse;
     color: #fff;
     font-size: 39px;
@@ -256,7 +256,7 @@ export default {
 }
 
 .routssine-table td {
-border: 1px solid #fff;
+border: 2px solid #fff;
     color: #fff;
     font-size: 37px;
     padding: 27px 0; 
@@ -282,7 +282,7 @@ border: 1px solid #fff;
     color: white;
 }
 .column3 .tasddble-input {
-    width: 302px;
+    width: 297px;
     height: 49px;
     text-align: center;
     color: #fff;
