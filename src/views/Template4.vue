@@ -234,7 +234,7 @@ border: 1px solid #fff;
     align-items: center;
     color: #fff;
     font-weight: bold;
-    font-size: 54px;
+    font-size: 49px;
     margin-top: 116px;
 }
 

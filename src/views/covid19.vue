@@ -182,7 +182,7 @@ export default {
     margin-top: 60px;
 }
 .deusdcdfhu {
-  width: 134px;
+  width: 153px;
   height: 68px;
   justify-content: center;
   align-items: center;
@@ -224,7 +224,6 @@ export default {
   font-size: 26px;
   margin-top: 102px;
   color: rgb(0, 0, 0);
-  margin-left: 158px;
 }
 .deusdcdfdcdchu {
   width: 110px;
