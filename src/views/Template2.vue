@@ -137,15 +137,15 @@ export default {
 
 <style>
 .ddcdcate {
-  margin-left: 423px;
-  width: 512px;
-  height: 68px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  font-weight: bold;
-  font-size: 65px;
+    margin-left: 338px;
+    width: 663px;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 60px;
 }
 
 .template-page {
