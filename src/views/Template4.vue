@@ -100,7 +100,7 @@ export default {
   components: {},
   data() {
     return {
-      routineDate: "০১ জুলাই - এর সময়সূচি ",
+      routineDate: "০১ জুলাই এর সময়সূচি ",
 
       class1: "৯ম",
       subject1: "জেনারেল ইলেকট্রনিক্স",
