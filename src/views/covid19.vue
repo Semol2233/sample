@@ -216,14 +216,15 @@ export default {
   margin-top: 97px;
 }
 .deusdcddcedsfhu {
-  width: 97px;
-  height: 68px;
-  justify-content: center;
-  align-items: center;
-  font-weight: bold;
-  font-size: 26px;
-  margin-top: 102px;
-  color: rgb(0, 0, 0);
+width: 106px;
+    height: 68px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 26px;
+    margin-top: 102px;
+    color: rgb(0, 0, 0);
+    margin-left: 139px;
 }
 .deusdcdfdcdchu {
   width: 110px;
@@ -234,7 +235,7 @@ export default {
   font-size: 26px;
   margin-top: 102px; 
   color: rgb(0, 0, 0);
-  margin-left: 152px;
+  margin-left: 140px;
 }
 .dassssste {
   margin-left: 222px;
