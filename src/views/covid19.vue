@@ -178,7 +178,7 @@ export default {
     align-items: center;
     color: #fff;
     font-weight: bold;
-    font-size: 42px;
+    font-size: 41px;
     margin-top: 60px;
 }
 .deusdcdfhu {
