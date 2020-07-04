@@ -80,46 +80,46 @@ export default {
   data() {
     return {
       routineDate: "৮ জুন এর সময়সূচি",
-      coronaBreak: "জাতীয় সঙ্গীত ও করোনা সচেতনতা (দুপুর ০২.৩০-০২.৩০)",
+      coronaBreak: "জাতীয় সঙ্গীত ও করোনা সচেতনতা (সকাল ১০.৩৫ - ১০.৪০)",
       routine: [
         {
           class: "৬ষ্ঠ",
-          subject1: "গণিত",
+          subject1: "বাংলা",
           subjddect1: "----------------",
-          time1: "(দুপুর ০২.৩৫- দুপুর ০২.৫৫)",
-          subject2: "----------------",
+          time1: "(সকাল ১০.৪০ - সকাল ১১.২০)",
+          subject2: "তথ্য ও যোগাযোগ প্রযুক্তি",
           time2: "(সকাল ১১.৪৫)"
         },
         {
           class: "৭ম",
           subject1: "বাংলাদেশ ও বিশ্বপরিচয়",
           subjddect1: "----------------",
-          time1: "(দুপুর ০২.৫৫- দুপুর ০৩.১৫)",
-          subject2: "----------------",
+          time1: "(সকাল ১১.২০ - দুপুর ১২.০০)",
+          subject2: "বিজ্ঞান",
           time2: "(সকাল ১১.৪৫)"
         },
         {
           class: "৮ম",
           subject1: "ইংরেজি",
           subjddect1: "----------------",
-          time1: "(দুপুর ০৩.১৫- দুপুর ০৩.৩৫)",
-          subject2: "----------------",
+          time1: "(দুপুর ১২.০০ - দুপুর ১২.৪০)",
+          subject2: "গণিত",
           time2: "(দুপুর ১.০৫)"
         },
         {
           class: "৯ম",
-          subject1: "জীববিজ্ঞান",
-          subjddect1: "----------------",
-          time1: "(দুপুর ০৩.৩৫- দুপুর ০৩.৫৫)",
-          subject2: "----------------",
+          subject1: "বাংলা",
+          subjddect1: "হিসাববিজ্ঞান",
+          time1: "(দুপুর ১২.৪০ - দুপুর  ১.৪০)",
+          subject2: "উচ্চতর গণিত",
           time2: "(দুপুর ১.৪৫)"
         },
         {
           class: "১০ম",
-          subject1: "ফিন্যান্স ও ব্যাংকিং",
-          subjddect1: "----------------",
-          time1: "(দুপুর ০৩.৫৫- বিকাল ০৪.১৫)",
-          subject2: "----------------",
+          subject1: "জীববিজ্ঞান",
+          subjddect1: "গণিত",
+          time1: "(দুপুর ১.৪০ - দুপুর  ২.৪৫)",
+          subject2: "বাংলাদেশ ও বিশ্বপরিচয়",
           time2: "(দুপুর ২.২৫)"
         }
       ]
@@ -154,9 +154,17 @@ export default {
 .corona-input {
   width: 100%;
   text-align: center;
-  font-size: 22px;
+  font-size: 35px; 
 }
 
+
+.routine-table {
+  border: 2px solid #fff;
+  width: 1146px;
+  margin-left: 116px;
+  margin-top: 39px;
+  border-collapse: collapse;
+}
 .routine--template2 .routine-table th {
   padding: 3px 0;
   font-size: 22px;
@@ -174,21 +182,21 @@ export default {
   width: 232px;
 }
 .routine--template11 .column1 .table-input {
-  max-width: 212px;
+  max-width: 316px;
 }
 
 .routine--template11 .column2 {
   width: 232px;
 }
 .routine--template11 .column2 .table-input {
-  max-width: 185px;
+  max-width: 248px;
 }
 
 .routine--template11 .column3 {
   width: 232px;
 }
 .routine--template11 .column3 .table-input {
-  max-width: 187px;
+  max-width: 253px;
 }
 
 .routine--template11 .column4 {
@@ -198,11 +206,11 @@ export default {
   max-width: 168px;
 }
 .routine-tabsle {
-  border: 2px solid #fff;
-  width: 754px;
-  margin-left: 79px;
-  margin-top: 14px;
-  border-collapse: collapse;
+border: 2px solid #fff;
+    width: 1146px;
+    margin-left: 117px;
+    margin-top: 39px;
+    border-collapse: collapse;
 }
 
 .routine--template2 .routine-tabsle {
@@ -214,17 +222,17 @@ export default {
   border: 1px solid #fff;
   border-collapse: collapse;
   color: #fff;
-  font-size: 22px;
+  font-size: 35px;
   padding: 10px 0;
   text-align: center;
   font-weight: bold;
 }
 
 .routine-tabsle td {
-  border: 1px solid #fff;
-  color: #fff;
-  font-size: 20px;
-  padding: 4px 0;
-  text-align: center;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 29px;
+    padding: 9px 0;
+    text-align: center;
 }
 </style>

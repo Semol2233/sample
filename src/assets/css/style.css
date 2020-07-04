@@ -83,7 +83,7 @@ width: 100%;
 .routine--template11{
   background-image: url("/img/shimol-01.jpg");
   background-size: 100% 100%;
-  padding-top: 171px;
+  padding-top: 280px;
 }
 
 .routine--template14{
@@ -98,20 +98,20 @@ width: 100%;
   padding-top: 305px;
 } 
 .date {
-  margin-left: 231px;
-  width: 441px;
+  margin-left: 288px;
+  width: 781px;
   height: 68px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #fff;
   font-weight: bold;
-  font-size: 43px;
+  font-size: 57px;
 }
 
 .date-input {
-  max-width: 100%;
-  text-align: center;
+    text-align: center;
+    width: 780px;
 }
 
 .table-input {
