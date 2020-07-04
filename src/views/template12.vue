@@ -182,7 +182,7 @@ export default {
   width: 232px;
 }
 .routine--template11 .column1 .table-input {
-  max-width: 322px;
+    width: 313px;
 }
 
 .routine--template11 .column2 {
@@ -232,7 +232,7 @@ border: 2px solid #fff;
     border: 1px solid #fff;
     color: #fff;
     font-size: 29px;
-    padding: 9px 0;
+    padding: 10px 0;
     text-align: center;
 }
 </style>
