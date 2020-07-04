@@ -179,7 +179,7 @@ export default {
     color: #fff;
     font-weight: bold;
     font-size: 41px;
-    margin-top: 60px;
+    margin-top: 61px;
 }
 .deusdcdfhu {
   width: 153px;
@@ -213,7 +213,7 @@ export default {
   color: #fff;
   font-weight: 700;
   font-size: 55px;
-  margin-top: 97px;
+  margin-top: 99px;
 }
 .deusdcddcedsfhu {
 width: 106px;
