@@ -203,7 +203,7 @@ export default {
   width: 232px;
 }
 .routine--template11 .column4 .table-input {
-  max-width: 168px;
+  max-width: 243px;
 }
 .routine-tabsle {
 border: 2px solid #fff;
