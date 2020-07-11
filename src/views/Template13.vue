@@ -23,7 +23,7 @@
             </tr>
           </thead>
 
-          <tbody class="tbody">
+          <tbody class="tbodcddy">
             <tr class="prak-row">
               <td class="column1">
                 <input
@@ -160,7 +160,9 @@ export default {
 </script>
 
 <style>
-
+.tbodcddy{
+   font-family: "Hind Siliguri", sans-serif;
+}
 .datssse{
     font-family: "Hind Siliguri", sans-serif;
 }
@@ -280,7 +282,7 @@ width: 282px;
 }
 
   .column1 .tabssle-input {
-    width: 199px;
+    width: 216px;
     height: 66px;
     text-align: center;
 }
