@@ -133,7 +133,7 @@ export default {
         // },
         // {
         //   class: "৫ম",
-        //   subject: "ইংরেজি",
+        //   subject: "ইংরেsdজি",
         //   duration: "১০.৪০-১১.০০"
         // }
       ]
@@ -171,6 +171,7 @@ export default {
    font-family: "Hind Siliguri", sans-serif;
 
 }
+
 .routine--template5 .routssine-table th {
   padding: 6px 0;
   font-size: 32px; 
