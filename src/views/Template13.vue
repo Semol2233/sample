@@ -165,7 +165,7 @@ export default {
     font-family: "Hind Siliguri", sans-serif;
 }
 .routine--template5 .routssine-table {
-  margin-top: 15px;
+  margin-top: 32px;
 }
 .thead{
    font-family: "Hind Siliguri", sans-serif;
@@ -173,14 +173,14 @@ export default {
 }
 .routine--template5 .routssine-table th {
   padding: 6px 0;
-  font-size: 23px;
+  font-size: 32px; 
 }
 
 .routine--template5 .routssine-table td {
     border: 1px solid #fff;
     color: #fff;
-    font-size: 21px;
-    padding: 21px 0;
+    font-size: 36px;
+    padding: 27px 0;
     text-align: center;
 }
 
@@ -193,23 +193,23 @@ export default {
 }
 
 .prak-row input {
-  font-size: 21px;
+  font-size: 35px;
 }
 .tbody{
   font-family: 'kongshomjregular';
 }
 
 .datssse {
-  margin-left: 231px;
-  width: 441px;
-  height: 68px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  font-weight: bold;
-  font-size: 43px;
-  margin-top: 104px;
+margin-left: 418px;
+    width: 542px;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 60px;
+    margin-top: 106px;
 }
 
 
@@ -240,9 +240,11 @@ width: 282px;
 
 .routssine-table {
     border: 2px solid #fff;
-    width: 687px;
-    margin-left: 109px;
+    width: 1046px;
+    margin-left: 162px;
+    margin-top: 25px;
     border-collapse: collapse;
+
 }
 
 .routine--template2 .routssine-table {
@@ -270,19 +272,20 @@ width: 282px;
 
 
   .column2 .tabssle-input {
-    width: 312px;
-    height: 34px;
+    width: 570px;
+    height: 61px;
     text-align: center;
+
 }
 
   .column1 .tabssle-input {
-    width: 148px;
-    height: 32px;
+    width: 199px;
+    height: 66px;
     text-align: center;
 }
 .column3 .tabssle-input {
-width: 222px;
-    height: 32px;
+    width: 222px;
+    height: 49px;
     text-align: center;
 }
 </style>
