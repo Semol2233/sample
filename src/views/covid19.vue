@@ -227,15 +227,15 @@ width: 106px;
     margin-left: 139px;
 }
 .deusdcdfdcdchu {
-  width: 110px;
-  height: 68px;
-  justify-content: center;
-  align-items: center;
-  font-weight: bold;
-  font-size: 26px;
-  margin-top: 102px; 
-  color: rgb(0, 0, 0);
-  margin-left: 140px;
+    width: 133px;
+    height: 68px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 102px;
+    color: rgb(0, 0, 0);
+    margin-left: 130px;
 }
 .dassssste {
   margin-left: 222px;
