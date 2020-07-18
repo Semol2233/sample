@@ -15,69 +15,90 @@
           
           " v-model="routineDate" />
         </div>
-
+            <div class="ssfs">
+              <input type="text" class="date-inpssut" v-model="time2" />
+            </div>
         <div class="flex-container">
-          <div v-for="(r, i) in routinessDate" :key="i">
+   
             <div class="dassssste">
-              <input type="text" class="date-inpssut" v-model="r.time" />
+              <input type="text" style="max-width: 100%;
+    text-align: center;
+    width: 445px;" v-model="time2" />
             </div>
-          </div>
-        </div>
-        <div
-          style="
 
-
-        display: flex;
-    flex-wrap: nowrap;
-    margin-top: 49px; 
-    margin-left: 42px; 
-        "
-        >
-          <div v-for="(r, i) in iedcr" :key="i">
-            <div
-              style="
-                width: 508px;
+                        <div style="
+                        
+                            width: 444px;
     height: 68px;
     justify-content: center;
     align-items: center;
     color: #fff;
     font-weight: bold;
-    font-size: 31px;
-            
-            "
-            >
-              <input type="text" class="date-inpssut" v-model="r.time" />
+    font-size: 42px;
+    margin-top: 64px;
+                        
+                                                      
+                        ">
+              <input type="text"  style="max-width: 100%;
+    text-align: center;
+    width: 445px;
+    margin-left: 327px;;" v-model="time3" />
             </div>
-          </div>
+
         </div>
 
-        <div
-          style="
 
 
-        display: flex;
-    flex-wrap: nowrap;
-    margin-top: 49px; 
-    margin-left: 42px; 
-        "
-        >
-          <div v-for="(r, i) in iedcr2" :key="i">
-            <div
-              style="
-                width: 508px;
+
+<!-- #2 -->
+        <div class="flex-container">
+   
+            <div class="dassseesste">
+              <input type="text" style="max-width: 100%;text-align: center;width: 445px;" v-model="time4" />
+            </div>
+
+            <div style="                
+     width: 444px;
     height: 68px;
     justify-content: center;
     align-items: center;
     color: #fff;
     font-weight: bold;
-    font-size: 31px;
-            
-            "
-            >
-              <input type="text" class="date-inpssut" v-model="r.time" />
+    font-size: 42px;
+    margin-top: 29px;">
+
+
+              <input type="text"  style="max-width: 100%;text-align: center; width: 445px;margin-left: 327px;;" v-model="time5" />
             </div>
-          </div>
+
         </div>
+
+
+
+<!-- #3 -->
+        <div class="flex-container">
+   
+            <div class="dasssrreesste">
+              <input type="text" style="max-width: 100%;text-align: center;width: 445px;" v-model="time6" />
+            </div>
+
+            <div style="                
+     width: 444px;
+    height: 68px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 42px;
+    margin-top: 36px;">
+
+
+              <input type="text"  style="max-width: 100%;text-align: center; width: 445px;margin-left: 327px;;" v-model="time74" />
+            </div>
+
+        </div>
+
+
       </div>
     </div>
   </div>
@@ -91,33 +112,13 @@ export default {
   data() {
     return {
       routineDate: "সোমবার | জুন | ২০২০",
-      routinessDate: [
-        {
-          time: "৩৪৮০"
-        },
-
-        {
-          time: "৩৮"
-        }
-      ],
-
-      iedcr: [
-        {
-          time: "৩৪৮০"
-        },
-        {
-          time: "৩৮"
-        }
-      ],
-
-      iedcr2: [
-        {
-          time: "১,১৫,৭৮৬"
-        },
-        {
-          time: "১৫০২"
-        }
-      ]
+          time2: "৩৪৮০",
+          time3: "৩৮",
+          time4: "৩৪৮০",
+          time5: "৩৮",
+          time6: "১,১৫,৭৮৬",
+          time74: "১৫০২"
+   
     };
   },
   mounted() {},
@@ -157,7 +158,7 @@ export default {
   text-align: center;
 }
 .dassste {
-  margin-left: 445px;
+  margin-left: 424px;
   width: 456px;
   height: 68px;
   display: flex;
@@ -166,19 +167,42 @@ export default {
   color: #fff;
   font-weight: bold;
   font-size: 34px;
-  margin-top: 73px;
+  margin-top: 91px;
 }
 
 .dassssste {
-  width: 508px;
-  height: 68px;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  font-weight: bold;
-  font-size: 31px;
+    width: 444px;
+    height: 68px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 42px;
+    margin-top: 64px;
+}
+.dassseesste{
+      width: 444px;
+    height: 68px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 42px;
+    margin-top: 29px;
 }
 
+
+.dasssrreesste{
+
+      width: 444px;
+    height: 68px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 42px;
+    margin-top: 36px;
+}
 .corona-input {
   width: 100%;
   text-align: center;
@@ -203,6 +227,20 @@ export default {
 }
 .routine--template9 .column1 .table-input {
   max-width: 222px;
+}
+
+
+
+.ssfs{
+    width: 508px;
+    height: 68px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 49px;
+    margin-top: 72px;
+    margin-left: 807px;
 }
 
 .routine--template9 .column2 {
@@ -232,9 +270,9 @@ export default {
   margin-top: 22px;
 }
 .date-inpssut {
-  max-width: 100%;
-  text-align: center;
-  width: 258px;
+    max-width: 100%;
+    text-align: center;
+    width: 445px;
 }
 .routine-tabsle th {
   border: 1px solid #fff;
