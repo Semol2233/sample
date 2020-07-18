@@ -35,7 +35,7 @@
     color: #fff;
     font-weight: bold;
     font-size: 42px;
-    margin-top: 64px;
+    margin-top: 65px;
                         
                                                       
                         ">
@@ -65,7 +65,7 @@
     color: #fff;
     font-weight: bold;
     font-size: 42px;
-    margin-top: 29px;">
+    margin-top: 30px;">
 
 
               <input type="text"  style="max-width: 100%;text-align: center; width: 445px;margin-left: 327px;;" v-model="time5" />
@@ -90,7 +90,7 @@
     color: #fff;
     font-weight: bold;
     font-size: 42px;
-    margin-top: 36px;">
+    margin-top: 37px;">
 
 
               <input type="text"  style="max-width: 100%;text-align: center; width: 445px;margin-left: 327px;;" v-model="time74" />
@@ -178,7 +178,7 @@ export default {
     color: #fff;
     font-weight: bold;
     font-size: 42px;
-    margin-top: 64px;
+    margin-top: 65px;
 }
 .dassseesste{
       width: 444px;
