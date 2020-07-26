@@ -5,7 +5,7 @@
     </div>
 
     <div class="routine-container">
-      <div class="routine routine--template11" id="routine" ref="routine">
+      <div class="routine routine--template15" id="routine" ref="routine">
         <div class="date">
           <input type="text" class="date-input" v-model="routineDate" />
         </div>
@@ -17,12 +17,16 @@
               <th class="column2">১ম পিরিয়ড</th>
               <th class="column3">২য় পিরিয়ড</th>
               <th class="column4">৩য় পিরিয়ড</th>
+              <th class="column5">৪র্থ পিরিয়ড</th>
+
+    
+
             </tr>
           </thead> 
 
           <tbody>
             <tr>
-              <td colspan="4">
+              <td colspan="5">
                 <input type="text" v-model="coronaBreak" class="corona-input" />
               </td>
             </tr>
@@ -43,6 +47,10 @@
                 <input type="text" v-model="r.subject2" class="table-input" />
               </td>
                       <td class="column4">
+                <input type="text" v-model="r.subjddect1" class="table-input" />
+                
+              </td>
+                                    <td class="column4">
                 <input type="text" v-model="r.subjddect1" class="table-input" />
                 
               </td>
@@ -113,7 +121,8 @@ export default {
           time1: "(দুপুর ০৩.৩৫- দুপুর ০৩.৫৫)",
           subject2: "জীববিজ্ঞান",
           time2: "(দুপুর ১.৪৫)"
-        }
+        },
+        
 
         
       ]
@@ -148,7 +157,7 @@ export default {
 .corona-input {
   width: 100%;
   text-align: center;
-  font-size: 22px;
+  font-size: 28px;
 }
 
 .routine--template2 .routine-table th {
@@ -164,39 +173,60 @@ export default {
   text-align: center;
 }
 
-.routine--template11 .column1 {
+.routine--template15 .column1 {
   width: 232px;
 }
-.routine--template11 .column1 .table-input {
+.routine--template15 .column1 .table-input {
+  max-width: 299px;
+}
+
+
+
+.routine--template15 .column5 {
+  width: 232px;
+}
+.routine--template15 .column5 .table-input {
   max-width: 215px;
 }
 
-.routine--template11 .column2 {
+
+
+.routine--template15 .column2 {
   width: 232px;
 }
-.routine--template11 .column2 .table-input {
-  max-width: 185px;
+.routine--template15 .column2 .table-input {
+  max-width: 260px;
 }
 
-.routine--template11 .column3 {
+.routine--template15 .column3 {
   width: 232px;
 }
-.routine--template11 .column3 .table-input {
+.routine--template15 .column3 .table-input {
   max-width: 179px;
 }
 
-.routine--template11 .column4 {
+.routine--template15 .column4 {
   width: 232px;
 }
-.routine--template11 .column4 .table-input {
+.routine--template15 .column4 .table-input {
   max-width: 168px;
 }
+
+.routine--template15 .column4 {
+  width: 232px;
+}
+.routine--template15 .column4 .table-input {
+  max-width: 168px;
+}
+
+
+
 .routine-tabsle {
-  border: 2px solid #fff;
-  width: 754px;
-  margin-left: 79px;
-  margin-top: 14px;
-  border-collapse: collapse;
+    border: 2px solid #fff;
+    width: 1204px;
+    margin-left: 76px;
+    margin-top: 38px;
+    border-collapse: collapse;
 }
 
 .routine--template2 .routine-tabsle {
@@ -208,7 +238,7 @@ export default {
   border: 1px solid #fff;
   border-collapse: collapse;
   color: #fff;
-  font-size: 22px;
+  font-size: 35px; 
   padding: 10px 0;
   text-align: center;
   font-weight: bold;
@@ -217,8 +247,8 @@ export default {
 .routine-tabsle td {
   border: 1px solid #fff;
   color: #fff;
-  font-size: 20px;
-  padding: 11px 0;
+  font-size: 29px;
+  padding: 14px 0;
   text-align: center; 
 }
 </style>
