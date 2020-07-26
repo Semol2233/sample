@@ -30,32 +30,174 @@
                 <input type="text" v-model="coronaBreak" class="corona-input" />
               </td>
             </tr>
-            <tr v-for="(r, i) in routine" :key="i">
+            <tr>
               <td class="column1">
-                <input type="text" v-model="r.class" class="table-input" />
+                <input type="text" v-model="classss" class="table-input" />
                 <input
                   type="text"
-                  v-model="r.time1"
+                  v-model="time1"
                   class="table-input"
-                  v-if="r.time1"
                 />
               </td>
               <td class="column2">
-                <input type="text" v-model="r.subject1" class="table-input" />
+                <input type="text" v-model="prihod1" class="table-input" />
               </td>
               <td class="column3">
-                <input type="text" v-model="r.subject2" class="table-input" />
+                <input type="text" v-model="part_one" class="table-input" />
+                                    <input
+                  type="text"
+                  v-model="part_two"
+                  class="table-input"
+                />
               </td>
                       <td class="column4">
-                <input type="text" v-model="r.subjddect1" class="table-input" />
+                <input type="text" v-model="p_1_1" class="table-input" />
                 
               </td>
-                                    <td class="column4">
-                <input type="text" v-model="r.subjddect1" class="table-input" />
+                   <td class="column4">
+                <input type="text" v-model="p_1_2" class="table-input" /> 
                 
-              </td>
-              
+              </td> 
+               
             </tr>
+
+
+            <!-- #2 -->
+
+
+            <tr>
+              <td class="column1">
+                <input type="text" v-model="clasdsss" class="table-input" />
+                <input
+                  type="text"
+                  v-model="timde1d"
+                  class="table-input"
+                />
+              </td>
+              <td class="column2">
+                <input type="text" v-model="pridhod1" class="table-input" />
+              </td>
+              <td class="column3">
+                <input type="text" v-model="sub" class="table-input" />
+
+              </td>
+                      <td class="column4">
+                <input type="text" v-model="pd_1_1" class="table-input" />
+                
+              </td>
+                   <td class="column4">
+                <input type="text" v-model="pd_1_2" class="table-input" /> 
+                
+              </td> 
+               
+            </tr>
+
+            <!-- 3 -->
+    
+
+
+                <tr>
+              <td class="column1">
+                <input type="text" v-model="ssdsd" class="table-input" />
+                <input
+                  type="text"
+                  v-model="tissmde1d"
+                  class="table-input"
+                  v-if="classsss"
+                />
+              </td>
+              <td class="column2">
+                <input type="text" v-model="pddddart_one" class="table-input" />
+                    <input
+                  type="text"
+                  v-model="padrddt_two"
+                  class="table-input"
+                  v-if="classsss"
+                />
+              </td>
+              <td class="column3">
+                <input type="text" v-model="pd_dd1_1" class="table-input" />
+              </td>
+                      <td class="column4">
+                <input type="text" v-model="pd_dd1_2" class="table-input" />
+                
+              </td>
+                   <td class="column4">
+                <input type="text" v-model="pd_dds1_2" class="table-input" /> 
+                
+              </td> 
+               
+            </tr>
+
+
+            <!-- 4? -->
+
+
+                        <tr>
+              <td class="column1">
+                <input type="text" v-model="dfdf" class="table-input" />
+                <input
+                  type="text"
+                  v-model="sdscf"
+                  class="table-input"
+                  v-if="classsss"
+                />
+              </td>
+              <td class="column2">
+                <input type="text" v-model="dgdffgr" class="table-input" />
+              </td>
+              <td class="column3">
+                <input type="text" v-model="ssdgdffgr" class="table-input" />
+              </td>
+                      <td class="column4">
+                <input type="text" v-model="grfrfgrg" class="table-input" />
+                                                    <input
+                  type="text"
+                  v-model="gffgrfgr"
+                  class="table-input"
+                />
+                 
+              </td>
+                   <td class="column4">
+                <input type="text" v-model="fgvrfsgrfg" class="table-input" /> 
+                
+              </td> 
+               
+            </tr>
+
+
+
+            <!-- 5 -->
+
+
+
+                        <tr>
+              <td class="column1">
+                <input type="text" v-model="dfdsf" class="table-input" />
+                <input
+                  type="text"
+                  v-model="sdsscf"
+                  class="table-input"
+                  v-if="classsss"
+                />
+              </td>
+              <td class="column2">
+                <input type="text" v-model="dgdsffgr" class="table-input" />
+              </td>
+              <td class="column3">
+                <input type="text" v-model="ssdgsdffgr" class="table-input" />
+              </td>
+                      <td class="column4">
+                <input type="text" v-model="dgdsssffgr" class="table-input" />
+                
+              </td>
+                   <td class="column4">
+                <input type="text" v-model="pd_dsfds1_2" class="table-input" /> 
+                
+              </td> 
+               
+            </tr>
+
 
             <!-- <tr v-for="(r, i) in routine" :key="i">
               <td>
@@ -88,53 +230,80 @@ export default {
   components: {},
   data() {
     return {
-      routineDate: "৮ জুন এর সময়সূচি",
-      coronaBreak: "জাতীয় সঙ্গীত ও করোনা সচেতনতা (সকাল ১০.৪০-১০.৪৫)",
-      routine: [
-        {
-          class: "৬ষ্ঠ",
-          subject1: "গণিত",
-          subjddect1: "----------------",
-          time1: "(দুপুর ০২.৩৫- দুপুর ০২.৫৫)",
-          subject2: "----------------",
-          time2: "(সকাল ১১.৪৫)"
-        },
-        {
-          class: "৭ম",
-          subject1: "তথ্য ও যোগাযোগ প্রযুক্তি",
-          subjddect1: "----------------",
-          time1: "(দুপুর ০২.৫৫- দুপুর ০৩.১৫)",
-          subject2: "----------------",
-          time2: "(সকাল ১১.৪৫)"
-        },
-        {
-          class: "৮ম",
+      routineDate: "২৭ জুন এর সময়সূচি",
+      coronaBreak: "জাতীয় সংগীত ও করোনা সচেতনতা (সকাল ১০:৩৫-১০:৪০)",
+          classsss: "৬ষ্ঠ",
           subject1: "বিজ্ঞান",
-          subjddect1: "----------------",
-          time1: "(দুপুর ০৩.১৫- দুপুর ০৩.৩৫)",
-          subject2: "বাংলা",
-          time2: "(দুপুর ১.০৫)"
-        },
-        {
-          class: "৯ম",
-          subject1: "গণিত",
-          subjddect1: "ইতিহাস",
-          time1: "(দুপুর ০৩.৩৫- দুপুর ০৩.৫৫)",
-          subject2: "জীববিজ্ঞান",
-          time2: "(দুপুর ১.৪৫)"
-        },
-                {
-          class: "১০ম",
-          subject1: "গণিত",
-          subjddect1: "ইতিহাস",
-          time1: "(দুপুর ০৩.৩৫- দুপুর ০৩.৫৫)",
-          subject2: "জীববিজ্ঞান",
-          time2: "(দুপুর ১.৪৫)"
-        },
-        
+          subject4: "p1",
+          subjddect1: "p2", 
+          subject2: "--",
+// 1
+          time1: "(সকাল ১০:৪০ সকাল ১১:২০)",
+          classss :"৬ষ্ঠ",
+          prihod1:"বিজ্ঞান",
+          part_one:"বাংলাদেশ",
+          part_two:"ও বিশ্বপরিচয়",
+          p_1_1:"----------",
+          p_1_2:"----------",
 
-        
-      ]
+          
+// 2
+          timde1d: "(সকাল ১১:২০ সকাল ১২:০০)",
+          clasdsss :"৭ম",
+          pridhod1:"ইংরেজি",
+          pddart_one:"বাংলাদেশ",
+          padrt_two:"ও বিশ্বপরিচয়",
+          sub:"বাংলা",
+          pd_1_1:"----------",
+          pd_1_2:"----------",
+
+
+
+// 3
+          tissmde1d: "(সকাল ১২:০০ সকাল ১২:২০)",
+          ssdsd :"৮ম",
+          prfdsfidhod1:"বিজ্ঞান",
+          pddddart_one:"বাংলাদেশ",
+          padrddt_two:"ও বিশ্বপরিচয়",
+          ddfdf:"বাংলা",
+          pd_dd1_1:"----------",
+          pd_dd1_2:"----------",
+          pd_dds1_2:"----------",
+
+
+
+// 4
+          sdscf: "(দুপুর ১২:২০ দুপুর ০১:৪০)",
+          dfdf :"৯ম",
+          dgdffgr:"পৌরনীতি",
+          ssdgdffgr:"অর্থনীতি",
+          dgdssffgr:"বাংলা",
+
+          grfrfgrg:"বাংলাদেশ",
+          gffgrfgr:"ও বিশ্বপরিচয়",
+          fgvrfsgrfg:"বাংলা",
+          pdfgfrg_dd1_1:"----------",
+          pd_fdd1_2:"----------",
+          pd_dfds1_2:"----------",
+
+
+
+
+// 5
+          sdsscf: "(দুপুর ০১:৪০ দুপুর ০২.:৪৫)",
+          dfdsf :"১০ম",
+          dgdsffgr:"উচ্চতর  গণিত",
+          ssdgsdffgr:"বাংলা",
+          dgdsssffgr:"ইংরেজি",
+
+          grfsrfgrg:"বাংলাদেশ",
+          gffgrsfgr:"ও বিশ্বপরিচয়",
+          fgvrsfsgrfg:"বাংলা",
+          pdfgsfrg_dd1_1:"----------",
+          pd_fsdd1_2:"----------",
+          pd_dsfds1_2:"----------",
+
+
     };
   },
   mounted() {},
@@ -186,7 +355,7 @@ export default {
   width: 232px;
 }
 .routine--template15 .column1 .table-input {
-  max-width: 299px;
+  max-width: 322px;
 }
 
 
@@ -204,30 +373,27 @@ export default {
   width: 232px;
 }
 .routine--template15 .column2 .table-input {
-  max-width: 270px;
+  max-width: 229px;
 }
 
 .routine--template15 .column3 {
   width: 232px;
 }
 .routine--template15 .column3 .table-input {
-  max-width: 179px;
+  max-width: 215px;
 }
 
 .routine--template15 .column4 {
   width: 232px;
 }
 .routine--template15 .column4 .table-input {
-  max-width: 168px;
+  max-width: 214px;
 }
 
 .routine--template15 .column4 {
   width: 232px;
 }
-.routine--template15 .column4 .table-input {
-  max-width: 168px;
-}
-
+ 
 
 
 .routine-tabsle {
