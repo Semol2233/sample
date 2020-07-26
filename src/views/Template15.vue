@@ -54,6 +54,7 @@
                 <input type="text" v-model="r.subjddect1" class="table-input" />
                 
               </td>
+              
             </tr>
 
             <!-- <tr v-for="(r, i) in routine" :key="i">
@@ -116,6 +117,14 @@ export default {
         },
         {
           class: "৯ম",
+          subject1: "গণিত",
+          subjddect1: "ইতিহাস",
+          time1: "(দুপুর ০৩.৩৫- দুপুর ০৩.৫৫)",
+          subject2: "জীববিজ্ঞান",
+          time2: "(দুপুর ১.৪৫)"
+        },
+                {
+          class: "১০ম",
           subject1: "গণিত",
           subjddect1: "ইতিহাস",
           time1: "(দুপুর ০৩.৩৫- দুপুর ০৩.৫৫)",
@@ -195,7 +204,7 @@ export default {
   width: 232px;
 }
 .routine--template15 .column2 .table-input {
-  max-width: 260px;
+  max-width: 270px;
 }
 
 .routine--template15 .column3 {
@@ -223,7 +232,7 @@ export default {
 
 .routine-tabsle {
     border: 2px solid #fff;
-    width: 1204px;
+    width: 1205px;
     margin-left: 76px;
     margin-top: 38px;
     border-collapse: collapse;
@@ -248,7 +257,7 @@ export default {
   border: 1px solid #fff;
   color: #fff;
   font-size: 29px;
-  padding: 14px 0;
+  padding: 5px 0;
   text-align: center; 
 }
 </style>
