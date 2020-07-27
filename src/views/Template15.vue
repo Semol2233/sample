@@ -150,7 +150,7 @@
               </td>
               <td class="column3">
                 <input type="text" v-model="ssdgdffgr" class="table-input" />
-                <input type="text" v-model="dgdffgr" class="table-input" />
+                <input type="text" v-model="dfdfdffde" class="table-input" />
               </td>
                       <td class="column4">
                 <input type="text" v-model="grfrfgrg" class="table-input" />
@@ -158,7 +158,7 @@
                   type="text"
                   v-model="gffgrfgr"
                   class="table-input"
-                  v-if="gffgrfgr" 
+                  v-if="gffgrfgr"  
                 />
                  
               </td>
@@ -280,6 +280,7 @@ export default {
           sdscf: "(দুপুর ১২:২০ দুপুর ০১:৪০)",
           dfdf :"৯ম",
           dgdffgr:"পৌরনীতি",
+          dfdfdffde:"-----",
           ssdgdffgr:"অর্থনীতি",
           dgdssffgr:"বাংলা",
 
@@ -289,7 +290,6 @@ export default {
           pdfgfrg_dd1_1:"----------",
           pd_fdd1_2:"----------",
           pd_dfds1_2:"----------",
-
 
 
 
