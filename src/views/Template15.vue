@@ -43,7 +43,7 @@
                 <input type="text" v-model="prihod1" class="table-input" />
               </td>
               <td class="column3">
-                <input type="text" v-model="part_one" class="table-input" />
+                <input type="text" v-model="part_one" class="table-input" v-if="part_one" />
                                     <input
                   type="text"
                   v-model="part_two"
@@ -72,10 +72,11 @@
                   type="text"
                   v-model="timde1d"
                   class="table-input"
+                  
                 />
               </td>
               <td class="column2">
-                <input type="text" v-model="pridhod1" class="table-input" />
+                <input type="text" v-model="pridhod1" class="table-input" v-if="part_two" />
               </td>
               <td class="column3">
                 <input type="text" v-model="sub" class="table-input" />
@@ -112,7 +113,7 @@
                   type="text"
                   v-model="padrddt_two"
                   class="table-input"
-                  v-if="classsss"
+                  v-if="padrddt_two"
                 />
               </td>
               <td class="column3">
@@ -145,9 +146,11 @@
               </td>
               <td class="column2">
                 <input type="text" v-model="dgdffgr" class="table-input" />
+                
               </td>
               <td class="column3">
                 <input type="text" v-model="ssdgdffgr" class="table-input" />
+                <input type="text" v-model="dgdffgr" class="table-input" />
               </td>
                       <td class="column4">
                 <input type="text" v-model="grfrfgrg" class="table-input" />
@@ -155,6 +158,7 @@
                   type="text"
                   v-model="gffgrfgr"
                   class="table-input"
+                  v-if="gffgrfgr" 
                 />
                  
               </td>
@@ -241,14 +245,14 @@ export default {
           time1: "(সকাল ১০:৪০ সকাল ১১:২০)",
           classss :"৬ষ্ঠ",
           prihod1:"বিজ্ঞান",
-          part_one:"বাংলাদেশ",
+          // part_one:"বাংলাদেশ",
           part_two:"ও বিশ্বপরিচয়",
           p_1_1:"----------",
           p_1_2:"----------",
 
           
 // 2
-          timde1d: "(সকাল ১১:২০ সকাল ১২:০০)",
+          timde1d: "(সকাল ১১:২০ দুপুর ১২:০০)",
           clasdsss :"৭ম",
           pridhod1:"ইংরেজি",
           pddart_one:"বাংলাদেশ",
@@ -260,11 +264,11 @@ export default {
 
 
 // 3
-          tissmde1d: "(সকাল ১২:০০ সকাল ১২:২০)",
+          tissmde1d: "(দুপুর ১২:০০ দুপুর ১২:২০)",
           ssdsd :"৮ম",
           prfdsfidhod1:"বিজ্ঞান",
           pddddart_one:"বাংলাদেশ",
-          padrddt_two:"ও বিশ্বপরিচয়",
+          // padrddt_two:"ও বিশ্বপরিচয়",
           ddfdf:"বাংলা",
           pd_dd1_1:"----------",
           pd_dd1_2:"----------",
@@ -280,7 +284,7 @@ export default {
           dgdssffgr:"বাংলা",
 
           grfrfgrg:"বাংলাদেশ",
-          gffgrfgr:"ও বিশ্বপরিচয়",
+          // gffgrfgr:"ও বিশ্বপরিচয়",
           fgvrfsgrfg:"বাংলা",
           pdfgfrg_dd1_1:"----------",
           pd_fdd1_2:"----------",
